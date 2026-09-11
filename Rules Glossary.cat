@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="8551-5b95-4980-851f" name="Rules Glossary" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="6" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Rules Glossary" id="8551-5b95-4980-851f" authorContact="riandro@googlemail.com" authorName="R.Atkin" authorUrl="https://github.com/Riandro" battleScribeVersion="2.03" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" library="true" revision="6" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication name="DW4-Rules-Glossary-v4.0_W.pdf" id="14a6-3b96-497a-488d" hidden="false" publisher="V4.00 Beta" publisherUrl="https://www.warcradle.com/assets/warcradleGames/dystopianWars/pdfs/essentials/DW4-Rules-Glossary-v4.0_W.pdf" shortName="Rules glossary"/>
+  </publications>
   <sharedRules>
     <rule name="Obscured" id="df6c-5496-1e28-46da" hidden="false">
       <description>**OBSCURED TARGETS**
@@ -40,6 +43,7 @@ tokens already allocated to it are immediately removed from play.</description>
       <description>When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply.</description>
     </rule>
     <rule name="Mine Clearance Mission" id="dd72-44de-a7c8-9104" hidden="false">
+      <comment>SRS</comment>
       <description>**RESOLVING A MINE CLEARANCE MISSION**
 
 
@@ -56,7 +60,6 @@ Any additional Exploding Strikes allow the Admiral to Clear another Minefield m
 
 
 All SRS tokens in the Stack are then discarded.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Superior Void Engine" id="fa19-3771-a733-d8ae" hidden="false">
       <description>This model, and other friendly Enlightened models within 10” of this model, benefit from Superior Void-Engines. 
@@ -96,7 +99,7 @@ For each Success scored in the Action Roll, the Secondary Target suffers 1 Dama
 
 *Note that any Properties or Weapon Qualities that apply against the Initial Target do not apply against Secondary Targets.*</description>
     </rule>
-    <rule name="Breaching Drill" id="532d-0427-1a86-c6c3" hidden="false" publicationId="14a6-3b96-497a-488d" page="4">
+    <rule name="Breaching Drill" id="532d-0427-1a86-c6c3" hidden="false" page="4" publicationId="14a6-3b96-497a-488d">
       <description>This model automatically passes its Crew Check when Resolving a Ram. In addition, the Make an Action Roll and Inflict Damage steps are resolved differently from the standard rules for a Ram.
 
 3. MAKE AN ACTION ROLL
@@ -131,7 +134,7 @@ For each die showing a Breach result, the Target suffers a single instance of t
 If at least one model with this property Participates in a Boarding action, the Target’s Crew rating has a -1 Modifier for each Hazard Critical Damage Effect it has (to a minimum of 1) when determining Successes in the Resolve Outcomes step of the Action Roll.</description>
       <alias>Bushi Ryu Dojo</alias>
     </rule>
-    <rule name="Carrier" id="629d-e5c3-23e9-416f" hidden="false" publicationId="14a6-3b96-497a-488d" page="4">
+    <rule name="Carrier" id="629d-e5c3-23e9-416f" hidden="false" page="4" publicationId="14a6-3b96-497a-488d">
       <description>In the Launch Phase, this model’s unit can resolve an SRS Launch.
 
 When it does so, this model launches up to X SRS tokens, as described in Launching Short Range Squadrons on page 108 of the Dystopian Wars Rulebook.
@@ -390,6 +393,7 @@ For every System Failure inflicted in this way, the active Admiral can remove a 
       <description>When resolving an Attack Run mission with a Stack containing only SRS tokens with this Quality, each Breach or Structural Failure allocated to an Attack Run Target also inflicts 1 Damage.</description>
     </rule>
     <rule name="Attack Run Mission" id="a85f-8593-a2e7-99c6" hidden="false">
+      <comment>SRS</comment>
       <description>**RESOLVING AN ATTACK RUN MISSION**
 An SRS Stack that is Threatening an enemy unit performs an Attack Run mission, using the following process.
 
@@ -480,7 +484,6 @@ If, after every token of this squadron type is removed, there are still Hits re
 
 The process is repeated using that squadron type’s Resilience rating until either there are no Hits left in the Action Roll scoring Successes or there are no SRS tokens left in the Stack.</description>
       <alias>Interception Attempt</alias>
-      <comment>SRS</comment>
     </rule>
     <rule name="Shroud Generator" id="337c-de3a-80eb-27db" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
@@ -530,44 +533,65 @@ Attack actions made with Assault, Bomb, or Submerged Weapons ignore this effect.
 
 A Cryogenic Blast is a Special Action which can be made by any unit that contains at least one model with a Cryo Generator system. 
 
-**RESOLVING A CRYOGENIC BLAST ACTION**
+&lt;u&gt;**CRYO-SHARDS**&lt;/u&gt;
+
+A Cryogenic Blast action can create Cryo-Shards. These are treated as Icebergs (see page 120 of Dystopian Wars: The Rules), with the following exceptions:
+
+• When a Cryo-Shard is chosen as a target of an Attack action, it is treated as having an Armour rating of 2 instead of 3.
+• After resolving a Collision with a Cryo-Shard, reduce the Cryo-Shard’s Mass by 1 for each point of Damage the colliding model suffers.
+• A Cryo-Shard can be the target of a Broadside action as if it were a model. For each point of Damage inflicted on the Cryo-Shard during this action, reduce its Mass by 1. 
+
+
+A Cryo-Shard’s current Mass should be recorded with a Damage token, and adjusted as necessary. If its Mass is reduced to 0, the Cryo-Shard is removed from play.
+
+
+If both Admirals agree, a Cryo-Shard model can be replaced with a larger or smaller version as the Mass increases or decreases, as well as using Damage tokens; when doing so, the new Cryo-Shard’s Centre Point should occupy the same location as the one it is replacing, or as close to this location as possible without coming into contact with any models or other Terrain Features.
+
+&lt;u&gt;**RESOLVING A CRYOGENIC BLAST ACTION**&lt;/u&gt;
 When a unit makes a Cryogenic Blast action, its Admiral uses the following process.
 
 
-1. CHOOSE TARGET
+&lt;u&gt;1. CHOOSE TARGET&lt;/u&gt;
 The Admiral chooses one of the following:
 • An enemy Surface model.
 • A specific point of Open Water that is at least 1” away from any models, (including those with the Incoming status) Markers or Terrain Features. (Mark this point with a Generator Effect token).
-• An Iceberg with a Mass lower than 5.
+• An Cryo-Shard with a Mass lower than 5.
 
 
-2. NOMINATING PARTICIPATING MODELS
-The Admiral nominates any number of models in the active unit that will Participate in the action. A model can only Participate if it has a Cryo Generator, it is within 10” of the Target, and the Target is Visible to it. (For the purposes of determining if a point of Open Water is Visible, it is treated as having a Mass rating of 0.)
-If no models can Participate, another Target must be chosen.
+&lt;u&gt;2. NOMINATING PARTICIPATING MODELS&lt;/u&gt;
+Nominate the models in the active unit that will Participate in the action. A model can only Participate if it has a Cryo Generator system, is within 15” of the Target, and the Target is Visible to it and not Obscured. For the purposes of determining if a point of Open Water is Visible, treat it as having a Mass rating of 0.
 
 
-3. MAKE THE CRYOGENIC BLAST ROLL
-The active Admiral rolls a number of Action Dice equal to the total Mass ratings of all Participating models.
-Each Heavy Strike and Exploding Strike rolled scores one Success. (Note that this is not an Action Roll, so Exploding Strikes do not allow additional dice to be rolled.)
+If no models can Participate, another Target must be chosen.
+
+
+&lt;u&gt;3. BUILD THE CRYO POOL&lt;/u&gt;
+Each Participating model contributes a number of Action Dice equal to its Mass rating to the Cryo Pool.
+
+
+&lt;u&gt;4. MAKE THE CRYOGENIC BLAST ROLL&lt;/u&gt;
+Roll all the dice in the Cryo Pool. Each Strike in the roll scores one Success. Note that this is not an Action Roll, so Exploding Strikes do not allow additional dice to be rolled.
 If no Successes are scored, the Action ends.
 
 
-4. RESOLVE OUTCOME
-The outcome of the Cryogenic Blast roll depends on the
-target that was chosen.
+&lt;u&gt;5. RESOLVE OUTCOME&lt;/u&gt;
+
+
+The outcome of the Cryogenic Blast roll depends on the Target.
 
 
 ENEMY SURFACE MODEL
-For each Success that was scored, the target suffers 1 Critical Damage.
+For each Success, the target suffers 1 Critical Damage.
 
 
 OPEN WATER
-The active Admiral replaces the Generator Effect token with an Iceberg. Its Mass cannot exceed the number of Successes rolled.
-The Iceberg must be placed within 1” of the Generator Effect token, and not within Proximity of any models or other Terrain Features.
+Replace the Generator Effect token with a Cryo-Shard. 
+Its Mass is equal to the number of Successes rolled, to a maximum of 5. 
+The Cryo-Shard must be placed within 1” of the Generator Effect token, and not within Proximity of any models or other Terrain Features.
 
 
-ICEBERG
-The Iceberg’s Mass is increased by 1 for each Success, up to a maximum Mass of 5.</description>
+CRYO-SHARD
+The Cryo-Shard’s Mass is increased by 1 for each Success, up to a maximum Mass of 5. </description>
     </rule>
     <rule name="Great Wall Generator" id="e0e8-beca-e662-2231" hidden="false">
       <description>This is a Generator.
@@ -908,10 +932,8 @@ Additionally, each Grappled model has a -1” Modifier to its Maximum Speed fo
 No effect.</description>
     </rule>
     <rule name="Inspirational" id="893a-3447-acd5-3123" hidden="false">
-      <description>A model within X” of a friendly Battle-Ready model with this Property can always Rally, even if another rule would prevent it from doing so. 
-
-
-In addition, whenever such a model Rallies, it loses one additional level of Disorder.</description>
+      <description>At the start of this model’s Consolidation step, all friendly Battle-Ready models within X” of it immediately lose 1 level of Disorder. 
+A model can only lose 1 level of Disorder as a result of this property per Round.</description>
     </rule>
     <rule name="Sympathetic Detonation" id="4290-2c5c-e5ae-2f7b" hidden="false">
       <description>When making an Attack action in which one or more weapons with this Quality is Contributing, at the start of the Resolve Exploding Strikes step, the active Admiral can discard one or more friendly Scythe Fighter SRS tokens that are attached to the Initial Target’s unit.
@@ -934,6 +956,7 @@ During this move, each model has a Minimum Speed of 0” and a Maximum Speed of
 If this unit is Deployed to the Reserve its Admiral adds 2 Bonus Dice to any Reserve Rolls they make for it.</description>
     </rule>
     <rule name="Aerial Reconnaissance" id="f8a1-35ff-f9f1-bb64" hidden="false">
+      <comment>SRS</comment>
       <description>In the Clean Up step of the End Phase, each SRS Stack that is still in play (i.e. that has not resolved an SRS Mission) performs Aerial Reconnaissance.
 
 
@@ -946,7 +969,6 @@ The maximum number of Bonus Cards that an Admiral can receive from Aerial Recon
 
 As a reminder, each Admiral can place an SRS token next to their Victory &amp; Valour deck for each Bonus Card they will receive. 
 Any remaining SRS tokens are then removed from play.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Solex" id="9e97-5f09-a65c-9297" hidden="false">
       <description>After the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Standard Counters in the Action Roll into Standard Strikes.</description>
@@ -1234,16 +1256,12 @@ The Initial Target immediately moves 4” directly towards the model on which 
 Any Collisions that result from this move are resolved as normal.</description>
     </rule>
     <rule name="Tracer" id="18e5-6f24-924d-874f" hidden="false">
-      <description>After resolving an Attack action in which one or more weapons with this Quality is Contributing, the Initial Target is Marked.
+      <description>After resolving an Attack action in which one or more weapons with this Quality is Contributing, the Initial Target is Marked. 
+Track this by placing a Negative Effect token on the Initial Target; this is a Tracer token. 
 
 
-Track this by placing a Negative Effect token on the Initial Target.
-
-
-When any unit makes an Attack action that targets a Marked model, the active Admiral re-rolls any Blanks in the Action Roll.
-
-
-Remove the Negative Effect token in the Clean Up step of the End Phase.</description>
+When a unit makes an Attack action that targets a Marked model, the active Admiral re-rolls any Blanks in the Action Roll. 
+Once this Attack action has been resolved, the Tracer token is removed and the Marked model loses this status.</description>
     </rule>
     <rule name="Strategic Asset" id="3207-2309-14b5-7216" hidden="false">
       <description>If this model is in the Play Area and Battle-Ready at the end of the game, the controlling Admiral scores X Victory Points.</description>
@@ -1505,7 +1523,9 @@ Firepower ratings of ‘-’ cannot be increased in this way. However, Firepowe
 *For example, a weapon with the Agitation (4) quality has Firepower ratings of 0 / 2 / -. If the Initial Target has a Mass of 2, its Firepower ratings are increased to 2 / 4 / -. If the Initial Target has a Mass of 6, its Firepower ratings are increased to 4 / 6 / -.*</description>
     </rule>
     <rule name="All Around" id="bbe4-03e4-180b-c745" hidden="false">
-      <description>When Declaring Contributing Weapons for an Attack action, this weapon can Contribute regardless of which Targeting Arc the Initial Target is in.</description>
+      <description>When Declaring Contributing Weapons for an Attack action, this weapon can Contribute to an Attack against an Initial Target in any Targeting Arc.
+
+When Contributing to an Attack outside of the Arc(s) listed on the Unit Profile, its Firepower rating is halved (rounding up) for the duration of the Action.</description>
       <alias>All-Around</alias>
     </rule>
     <rule name="Arc" id="f87a-1f84-2d45-fa74" hidden="false">
@@ -1693,9 +1713,9 @@ A Grounding Hazard can be Collided with as normal, but treats its Mass as 0 for
 Certain Properties and Systems may allow a model to Pass Through Grounding Hazards without Colliding.</description>
     </rule>
     <rule name="Optimal Target" id="c39c-0989-81cc-c2b4" hidden="true">
+      <comment>Currently not used</comment>
       <description>If the Initial Target has all of the listed Traits, increase each of this weapon’s Firepower ratings by X. 
 Firepower ratings that do not have a value are not increased.</description>
-      <comment>Currently not used</comment>
     </rule>
     <rule name="Mirage Projector Array" id="ffbe-b452-3af9-b5d5" hidden="false">
       <description>When a friendly model within 7” of this model is chosen as the Initial Target of an Attack action, its Admiral can use this system to grant that model the Mirage Generator system for the duration of the action, even if the target model has a System Failure Critical Damage Effect. 
@@ -1856,10 +1876,10 @@ In addition, models with this Property can never benefit from the Raiding Parti
 *Note: this quality directly opposes the Ablative Armour (X) property. See that property for details.*</description>
     </rule>
     <rule name="Co-ordinated Explosion" id="e332-3907-ed4f-7d48" hidden="false" noindex="true">
+      <comment>Currently not used</comment>
       <description>When resolving an Attack Run mission, if any Attack Run Targets are within 20” of a friendly model with the Mindless Storm property, each Token in the Stack with this SRS Property allows the Admiral to convert one Heavy Strike in the Action Roll into an Exploding Strike.
 
 This conversion happens at the start of the Resolve Exploding Strikes step.</description>
-      <comment>Currently not used</comment>
     </rule>
     <rule name="Coordinated Defences" id="fb89-d0c8-26c5-3bb6" hidden="false">
       <description>When this model is chosen as the Initial Target of an Attack action, its Admiral can choose to make a Crew Check for it.
@@ -1888,15 +1908,20 @@ An Atomic Generator provides no Unit Benefit to Immobile models.</description>
       <description>If an Airborne model within X” of at least one friendly model with this System benefits from a Heavy Shield Generator, its Armour rating receives a +2 Modifier instead of +1.</description>
     </rule>
     <rule name="Aerial Repair Facilities" id="9944-ab43-070d-95aa" hidden="true" noindex="true">
-      <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
       <comment>Currently not used</comment>
+      <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
     </rule>
     <rule name="Vitruvian Form" id="bf76-dfda-829f-8b3b" hidden="false">
-      <description>At the start of its Movement Step, this model can make a free Pivot before moving.
+      <description>At the start of its Movement Step, this model can make a free Pivot before moving. 
 
-In addition, this model must always Pivot when it Comes About, but these Pivots cost 1” of Movement instead of 2”.
 
-This model cannot declare a Ram.</description>
+This model must always Pivot when it Comes About, but these Pivots cost 1” of Movement instead of 2”. 
+
+
+Additionally, this Admiral can declare a Ram with this model, even if it moves less than 3” before Colliding with an enemy model. 
+
+
+It automatically passes the Crew Check for Ramming</description>
     </rule>
     <rule name="Vikingr" id="fcb2-c111-c9f6-ed99" hidden="false">
       <description>When this model Participates in a Boarding action, the Target gains X Negative Effect tokens. These are Vikingr Tokens, and indicate that the target is Under Attack.
@@ -2045,10 +2070,11 @@ In addition, if the Action Roll results in at least one Success, the Target Mod
 Each Participating model removes X Action Dice from its Admiral’s Local Anomaly Pool. (See the *Enlightened ORBAT*.)</description>
     </rule>
     <rule name="Resilient" id="03db-4248-36af-69a3" hidden="true">
-      <description>When this model is targeted by an Attack action of the listed Quality, any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
       <comment>Currently not used</comment>
+      <description>When this model is targeted by an Attack action of the listed Quality, any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
     </rule>
     <rule name="Portal Strike" id="2a23-1d3f-39ee-01fb" hidden="false">
+      <comment>SRS</comment>
       <description>When this Admiral resolves an Attack Run mission against an enemy unit that is within 10” of a Portal marker, they can declare a Portal Strike at the start of the Disengage Step by discarding a Victory &amp; Valour Card from their hand.
 
 
@@ -2056,7 +2082,6 @@ If they do so, any SRS tokens with this SRS Property are not removed from play.
 
 
 Mark the SRS Stack with a Negative Effect token until the Clean Up step of the End Phase to show that it cannot make another Portal Strike this Round. This is a Portal Strike token.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Proximity" id="2c55-f2f7-2baf-2e00" hidden="false">
       <description>Whenever two models with the Surface Trait are within 2” of each other, both models are considered to be within Proximity of each other.
@@ -2104,6 +2129,7 @@ It must then move in a straight line, with the distance measured to and from th
 At the end of the move, it can make up to two free Pivots.</description>
     </rule>
     <rule name="Mindless Storm" id="1de1-f01d-4c8d-f348" hidden="true">
+      <comment>Currently not used</comment>
       <description>Whenever a friendly unit launches a Stack of Scythe Fighter SRS tokens, its Admiral can nominate any number of friendly models with this property to enact a Mindless Storm. 
 These models do not have to be in the same unit, and can be anywhere in the Play Area. 
 
@@ -2112,7 +2138,6 @@ In addition, for each model enacting a Mindless Storm that is within 10” of th
 
 A model can only participate in one Mindless Storm in each Launch Phase. 
 To track this, each nominated model is marked with a Special Effect token until the end of the Launch Phase.</description>
-      <comment>Currently not used</comment>
     </rule>
     <rule name="Mechanical Soul" id="2440-018d-ab52-349d" hidden="false">
       <description>This model’s Crew rating cannot be Modified Models with this Property are unaffected by Valour Effects enacted by their Admiral. 
@@ -2127,8 +2152,8 @@ They are affected by Special Valour Effects (enacted by either Admiral) as norm
 In addition, when this model’s unit makes a Boarding action, its Admiral can choose a Target that is within 6” of this model. Models in the unit that have this Property can Participate as long as they are within 6” of the Target.</description>
     </rule>
     <rule name="Lone Wolf" id="9118-2b75-76db-cf83" hidden="true">
-      <description>This model’s unit cannot be a Parent Unit for an Attachment.</description>
       <comment>Currently not used</comment>
+      <description>This model’s unit cannot be a Parent Unit for an Attachment.</description>
     </rule>
     <rule name="Limited" id="5c7e-83ef-db80-3872" hidden="false">
       <description>After resolving this Attack action, each weapon with this Quality that Contributed to the action is Depleted. The model that the weapon is mounted on gains a Depleted status token. 
@@ -2140,8 +2165,8 @@ This weapon cannot Contribute to an Attack action if it is mounted on a model w
 At the end of the model’s next Action Step, the Depleted status token is removed.</description>
     </rule>
     <rule name="Limited Capacitor" id="d141-1050-5d25-dac9" hidden="true">
-      <description>If a model with this Property Participates in an Attack action, all Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
       <comment>Currently not used</comment>
+      <description>If a model with this Property Participates in an Attack action, all Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
     </rule>
     <rule name="Light Vessel" id="9a33-95b9-0b94-e2cc" hidden="false">
       <description>If this model becomes Crippled, it is immediatelyDestroyed and does not trigger a Catastrophic Explosion.</description>
@@ -2156,6 +2181,7 @@ This replaces the Under Fire rule, but any other rules that cause the target t
 *If this attack also has the Blast quality, this affects Secondary Targets as well as the Initial Target. *</description>
     </rule>
     <rule name="Landstrider" id="4fcd-04ee-8a41-9153" hidden="true">
+      <comment>Currently not used</comment>
       <description>This model can move into or through Grounding Hazards and Islands without Colliding with them, although its movement is Impeded.
 
 If this model ends its move so that it is entirely on an Island, it is Traversing that Island.
@@ -2167,7 +2193,6 @@ For the purposes of determining Visibility, its Mass rating is increased by th
 In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effect in its Consolidation Step.
 
 While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that Territory (see the Ground Assault (X ) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
-      <comment>Currently not used</comment>
     </rule>
     <rule name="Intensive" id="2863-cf0e-91e0-5c88" hidden="false">
       <description>If at least one weapon with this Quality Contributes to an Attack action, the active unit counts as having spent an additional Action. 
@@ -2181,10 +2206,23 @@ If the unit does not have enough Actions remaining, weapons with this Quality c
 In addition, if a model in this unit Participates in an Attack action at any Range, and all Contributing weapons have the Barrage quality, its Visibility cannot be Hampered or Obscured.</description>
       <alias>Heimdall Targeting System</alias>
     </rule>
-    <rule name="Heavy Transport" id="59dd-1aca-81fe-7c61" hidden="false">
-      <description>Before making a Reserve Roll for a unit with the listed Trait, which is at its minimum Model Count, and which does not have the Capital trait, its Admiral can declare that it is being Transported on a friendly model with this Property.
+    <rule name="Hovercraft Transport" id="59dd-1aca-81fe-7c61" hidden="false">
+      <description>When this model is Deployed, its Admiral may choose a friendly Yak Transport Hovercraft unit with up to two models that has not yet been Deployed. 
+This model is Transporting the chosen unit. 
 
-They do not need to make a Reserve Roll for a Transported unit. Instead, they set up the unit so that each model is within 5” of this model. A model with this Property can only be chosen to Transport one unit per game.</description>
+
+While the Yak Hovercraft unit is being Transported, it does not count as being in the Play Area. 
+It cannot be Activated and cannot be Targeted—effectively, it is treated like a Token allocated to this model. 
+
+
+Once per game, while this model is Transporting a unit, it can make an Unload special action during its Activation. 
+
+
+The Yak Transport Hovercraft unit is immediately deployed so that each of its models is within 5” of this model, and fully within its Aft Arc. 
+The newly deployed unit may then Activate later in the Round. 
+
+
+If this model is Annihilated before it makes an Unload special action, all models in the Transported unit are also Annihilated.</description>
     </rule>
     <rule name="Flight Deck" id="6f7b-dabb-2839-a43a" hidden="false">
       <description>At the end of a unit’s Movement Step, each model in the unit with this property Scrambles short range squadrons, which can either Support a Mission or Fly Interference.
@@ -2540,7 +2578,7 @@ The model can make an Additional Manoeuvre, but gains a level of Disorder. 
 If the model has 3 levels of Disorder, it suffers a point of Damage instead. 
 A model can make Emergency Manoeuvres multiple times during the same move.</description>
     </rule>
-    <rule name="Lightning Raids" id="b787-d755-59ee-697c" hidden="false">
+    <rule name="Lightning Raid" id="b787-d755-59ee-697c" hidden="false">
       <description>If this model successfully Rams an Airborne model in its Movement Step, its unit can make a Boarding action in its subsequent Action Step. 
 
 
@@ -2548,7 +2586,7 @@ The Target must be the model that was Rammed, and only models that Rammed the 
 
 
 If the Target of this Action has the Boarding Parties (X ) property, its Admiral does not add X dice to the Resistance Roll.</description>
-      <alias>Lightning Raid</alias>
+      <alias>Lightning Raids</alias>
     </rule>
     <rule name="Ablative Armour" id="2b83-c3e8-428e-9697" hidden="false">
       <description>When this model the Initial Target of an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes immediately after rolling the dice, before beginning the Resolve Exploding Strikes step.
@@ -2586,14 +2624,13 @@ Submerged Weapons cannot Contribute to Attack actions against Surfacing models.
       <description>If this model is within 4” of a Territory at the end of its Movement Step, its Admiral can either add one token to an existing friendly Landing Party stack on that Territory, or remove one Token from an enemy Landing Party stack on that Territory.</description>
     </rule>
     <rule name="Magma Formations" id="1568-b851-997f-0e80" hidden="false">
-      <alias>Magma Formation</alias>
       <description>A Magma Formation is a special type of Terrain Feature that can be created by a Magma Sear action, as described below.
 
 
 Magma Formations follow the rules for Icebergs but are treated as having an Armour rating of 5 instead of 3.</description>
+      <alias>Magma Formation</alias>
     </rule>
     <rule name="Iceberg" id="c841-bedc-1df0-5d65" hidden="false">
-      <alias>Iceburgs</alias>
       <description>Icebergs are a common sight in certain parts of the ocean, but can appear elsewhere thanks to the strange technologies of the Dystopian Age.
 
 
@@ -2610,6 +2647,7 @@ An Iceberg’s Mass is reduced by 1 for each point of Damage it suffers; this c
 
 
 If its Mass reaches 0, the Iceberg is removed from play.</description>
+      <alias>Iceburgs</alias>
     </rule>
     <rule name="Surgical Strike" id="a4b1-7801-0e0e-e208" hidden="false">
       <description>In the Resolve Critical Damage step of an Attack Run mission, when allocating Critical Damage Dice to Attack Run Targets, each Token in the Stack with this SRS Property causes one Critical Damage Die of the listed type to inflict two instances of that Effect.</description>
@@ -2643,6 +2681,7 @@ The Initial Target of this Action cannot be an Underwater model.
 If the Initial Target is an Airborne model, it does not benefit from the Unconventional Target rule.</description>
     </rule>
     <rule name="Moon Pool" id="470b-97f3-bf8c-765c" hidden="false">
+      <comment>Not used?</comment>
       <description>An Empire unit within 10” of at least one friendly model with this Property benefits from Chita Support, and gains the following benefits:
 
 
@@ -2651,7 +2690,6 @@ If a unit with Chita Support uses the Raiding Parties rule, the X value of the 
 
 Each time an Escort token is discarded from a unit with Chita Support, for any reason other than Raiding Parties, roll an Action Die. 
 If the result shows a Standard Counter or a Heavy Counter, the Token remains in play.</description>
-      <comment>Not used?</comment>
     </rule>
     <rule name="Reinforced Decking" id="0ef0-6a6d-884c-7efc" hidden="false">
       <description>When this model is targeted by an Attack action made with Aerial Weapons, any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
@@ -2729,8 +2767,8 @@ If a model accumulates Ablaze tokens equal to or in excess of its Mass rating, 
 When making a Repair Roll, an Admiral can remove all Ablaze tokens from a model as though they were a single Critical Damage Effect.</description>
     </rule>
     <rule name="Levant" id="494c-dd2b-054b-3eb3" hidden="true">
-      <description>Airborne models with this Property do not benefit from the Unconventional Target rule, but count as Scoring Models so long as they are not Crippled.</description>
       <comment>Currently not used</comment>
+      <description>Airborne models with this Property do not benefit from the Unconventional Target rule, but count as Scoring Models so long as they are not Crippled.</description>
     </rule>
     <rule name="Sky Commandos" id="b882-b213-bba2-ddfa" hidden="false">
       <description>When this model’s unit makes a Boarding action, the Target can be a Surface or Airborne model, and this model can Participate.</description>
@@ -2740,11 +2778,10 @@ When making a Repair Roll, an Admiral can remove all Ablaze tokens from a model
 
 
 Only models with this System can Participate in the Action.</description>
-      <comment>
-</comment>
       <alias>T.E.D</alias>
     </rule>
     <rule name="Turbo Encabulation" id="b3d7-c484-971a-5fcd" hidden="true" noindex="false">
+      <comment>retired</comment>
       <description>&lt;h1&gt;Turbo Encabulation Jumps&lt;/h1&gt;
 &lt;p&gt;Some rules allow an Admiral to to attempt a Turbo Encabulation Jump with a unit.&lt;/p&gt;
 
@@ -2769,7 +2806,6 @@ Only models with this System can Participate in the Action.</description>
 &lt;p&gt;If its unit attempts a Turbo Encabulation Jump,the model is removed from play as normal, but is not returned to the Play Area. If it was Battle-Ready, the opposing Admiral immediately scores Victory Points as though it had been Crippled.&lt;/p&gt;</description>
       <alias>Turbo Encabulation Jump</alias>
       <alias>Turbo Encabulation Jumps</alias>
-      <comment>retired</comment>
     </rule>
     <rule name="Ekranoplan" id="b4cf-b94c-0f9c-fcc3" hidden="false">
       <description>This model can move into or through Grounding Hazards without Colliding with them, and can still Rally when it is within Proximity of them.</description>
@@ -2854,6 +2890,7 @@ This applies even if the Participating model or Target is Airborne.
 The opposing Admiral adds 2 Bonus Dice to the Resistance Roll for each Participating model that has Hampered Visibility.</description>
     </rule>
     <rule name="Talon Assault Mission" id="07f8-b184-44d3-4124" hidden="false">
+      <comment>SRS</comment>
       <description>Allocate the SRS Stack to an enemy Surface or Airborne unit within 25” of the model from which it is being launched.
 It is now Assaulting that unit.
 
@@ -2896,9 +2933,9 @@ The chosen model gains 1 Disorder, and suffers a Critical Damage Effect chosen 
 
 5. DISENGAGE
 Discard all SRS tokens in the active Admiral’s stack.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Ground Support Mission" id="2308-1795-cbe1-35f5" hidden="false">
+      <comment>SRS</comment>
       <description>**RESOLVING A GROUND SUPPORT MISSION**
 
 Allocate the SRS Stack to a friendly Landing Party stack on a Territory that is within 25” of the model from which it is being launched. It is now Approaching that Territory.
@@ -2911,9 +2948,9 @@ If at least one Strike is rolled, add an additional Token to the Landing Party 
 
 
 All Tokens in the SRS stack are then discarded.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Supply Drop Mission" id="1409-2dec-bc15-7eb5" hidden="false">
+      <comment>SRS</comment>
       <description>**RESOLVING A SUPPLY DROP MISSION**
 
 
@@ -2927,7 +2964,6 @@ For each Strike that is rolled, the active Admiral can choose a model in the un
 
 
 It may do this even if it would not otherwise be able to Rally. A model cannot be chosen more than once per Mission.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Orichalcite Construction" id="93bc-4d8d-38a0-224c" hidden="false">
       <description>If this model has more than one instance of the same Critical Damage Effect, it only counts as having a single instance of that Effect when resolving ongoing penalties.
@@ -3206,6 +3242,7 @@ If no Participating models are within 30” When the Action Roll is made, they 
 After the Attack action has been fully resolved, this model gains 1 level of Disorder.</description>
     </rule>
     <rule name="Terminator Assault Mission" id="e538-7fae-5434-a560" hidden="false">
+      <comment>SRS</comment>
       <description>Allocate the SRS Stack to an enemy Surface or Airborne unit within 25” of the model from which it is being launched.
 It is now Assaulting that unit.
 
@@ -3255,12 +3292,9 @@ The active Admiral repeats this step as many times as possible, but each Assaul
 
 5. DISENGAGE
 Discard all SRS tokens in the active Admiral’s stack.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Physeter Construct" id="8d7f-1f0e-a890-1f19" hidden="false">
-      <alias>Physeter Constructs</alias>
-      <alias>Physeter Construct Token</alias>
-      <alias>Physeter Construct Tokens</alias>
+      <comment>SRS</comment>
       <description>A unit can never have more than 3 Physeter Construct tokens allocated to it.
 
 The Admiral can Unleash Physeter Construct tokens from a unit, removing them from play, to use Physeter Protection or enact Physeter Sabotage, as follows.
@@ -3305,7 +3339,9 @@ Add 1 Bonus Die for each Escort token accompanying the target unit. If the targe
 
 
 For each Success scored in the Action Roll, the active Admiral rolls a Critical Damage Die. Each resulting Critical Damage Effect is inflicted on the target.</description>
-      <comment>SRS</comment>
+      <alias>Physeter Constructs</alias>
+      <alias>Physeter Construct Token</alias>
+      <alias>Physeter Construct Tokens</alias>
     </rule>
     <rule name="Euripidean Host" id="57ea-f956-5eba-6168" hidden="false">
       <description>Once per game, this model’s unit can make a Special Action to Detach the Sub-remoras. 
@@ -3323,6 +3359,7 @@ The new unit is marked with an Activated status token. It is now a fully-fledged
 If at least one model with this property Participates in the Boarding Action any Blank dice results may be re-rolled.</description>
     </rule>
     <rule name="Physeter Support Hub" id="0dc6-9ce3-f72d-dc03" hidden="false">
+      <comment>SRS</comment>
       <description>At the end of the Deployment step, this model’s Admiral gains 4 Physeter Construct tokens (see the Enlightened ORBAT ). 
 
 
@@ -3333,7 +3370,6 @@ After this model’s Admiral uses Physeter Protection or Physeter Sabotage with 
 
 
 If they score a Heavy or Exploding Strike, they return the Token to the unit from which it was Unleashed.</description>
-      <comment>SRS</comment>
     </rule>
     <rule name="Overthrusters" id="1f4f-55e8-4844-c0f0" hidden="false">
       <description>When this model uses its Boosted Propulsion (+X”) system, mark it with a Special Effect token to show that it is at Full Thrust.
@@ -3375,7 +3411,4 @@ The Defences rating of a unit with this System is marked with an asterisk (*) a
       <alias>ESCF Munitions</alias>
     </rule>
   </sharedRules>
-  <publications>
-    <publication name="DW4-Rules-Glossary-v4.0_W.pdf" id="14a6-3b96-497a-488d" hidden="false" publisherUrl="https://www.warcradle.com/assets/warcradleGames/dystopianWars/pdfs/essentials/DW4-Rules-Glossary-v4.0_W.pdf" shortName="Rules glossary" publisher="V4.00 Beta"/>
-  </publications>
 </catalogue>
