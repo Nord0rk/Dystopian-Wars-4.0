@@ -181,7 +181,7 @@
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink name="PL AIR " id="a697-d584-e2a0-d23f" hidden="false" targetId="2a0d-e9d1-a4ca-17f7">
+        <categoryLink name="Airborne" id="a697-d584-e2a0-d23f" hidden="false" targetId="2a0d-e9d1-a4ca-17f7">
           <constraints>
             <constraint id="c662-ef74-41c0-3cbe" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -7645,7 +7645,7 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">12</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">18</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Blast (6), Mayhem, Limited</characteristic>
               </characteristics>
             </profile>
@@ -8031,7 +8031,7 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
         <categoryLink name="Carrier" id="5cfe-2ea0-bc04-3afc" primary="false" targetId="4521-8e16-2d0f-7dc6"/>
         <categoryLink name="Supportcon" id="4132-8f98-0e99-40f7" primary="false" targetId="177a-2809-f30c-07f1"/>
         <categoryLink name="Attachment host" id="53db-f552-e57d-e32a" hidden="false" primary="false" targetId="2251-0def-1b03-2e93"/>
-        <categoryLink name="PL AIR " id="6389-42ea-f34a-b5d4" hidden="false" primary="false" targetId="2a0d-e9d1-a4ca-17f7"/>
+        <categoryLink name="Airborne" id="6389-42ea-f34a-b5d4" hidden="false" primary="false" targetId="2a0d-e9d1-a4ca-17f7"/>
       </categoryLinks>
       <constraints>
         <constraint id="535b-8b13-6014-52b3" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
@@ -9142,7 +9142,7 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
         <categoryLink name="Support" id="c9b1-988d-5f2c-64ea" hidden="false" primary="true" targetId="1711-6069-af06-c5cc"/>
         <categoryLink name="Supportcon" id="b98e-aaf9-7530-11e6" hidden="false" primary="false" targetId="177a-2809-f30c-07f1"/>
         <categoryLink name="Attachment host" id="68fb-3205-6225-5878" hidden="false" primary="false" targetId="2251-0def-1b03-2e93"/>
-        <categoryLink name="PL AIR " id="a8f8-fa17-84fb-3ee6" hidden="false" primary="false" targetId="2a0d-e9d1-a4ca-17f7"/>
+        <categoryLink name="Airborne" id="a8f8-fa17-84fb-3ee6" hidden="false" primary="false" targetId="2a0d-e9d1-a4ca-17f7"/>
       </categoryLinks>
       <constraints>
         <constraint id="693a-7861-5d82-4df8" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
@@ -10598,8 +10598,7 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
         </profile>
         <profile name="Boyar" id="8324-fa45-1df3-680f" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">
-</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -11054,7 +11053,7 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Offshore Defence Platform" id="bc9a-5ebc-30cd-7d77" hidden="true" import="true" targetId="b0a4-2ba5-b25d-8f2d" type="selectionEntry">
+        <entryLink name="Defence Platform Subatai Class" id="bc9a-5ebc-30cd-7d77" hidden="true" import="true" targetId="b0a4-2ba5-b25d-8f2d" type="selectionEntry">
           <categoryLinks>
             <categoryLink name="Attachment" id="4ecc-7ad7-87de-5ee4" hidden="false" primary="false" targetId="f152-70a0-da07-33cd"/>
           </categoryLinks>
