@@ -7479,14 +7479,6 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
       </profiles>
       <selectionEntries>
         <selectionEntry name="Pravda" id="c7d8-ad58-5f4c-1707" hidden="false" import="true" sortIndex="1" type="model">
-          <categoryLinks>
-            <categoryLink name="Ship" id="68ee-4b5d-16ab-18ee" hidden="false" primary="false" targetId="fc9a-5e99-1f83-c2a4"/>
-            <categoryLink name="Support" id="0b34-fc9f-8ac3-44e8" hidden="false" primary="true" targetId="1711-6069-af06-c5cc"/>
-            <categoryLink name="Commonwealth" id="bd4a-9653-e734-07a1" hidden="false" primary="false" targetId="1f78-904a-a9b7-2c8f"/>
-            <categoryLink name="Carrier" id="08f9-556a-a3b0-a293" hidden="false" primary="false" targetId="4521-8e16-2d0f-7dc6"/>
-            <categoryLink name="Surface" id="332e-15e3-109b-5c87" hidden="false" primary="false" targetId="4b7e-c78d-b9be-8d7c"/>
-            <categoryLink name="Russian" id="582c-16c1-e251-4223" hidden="false" primary="false" targetId="64b9-23dd-5700-e555"/>
-          </categoryLinks>
           <constraints>
             <constraint id="b6cd-9d10-89c5-9adf" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="1a7c-499f-ef72-ffa8" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
@@ -7728,14 +7720,6 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
       </profiles>
       <selectionEntries>
         <selectionEntry name="Stoletov" id="1076-9833-6ab6-9cf7" hidden="false" import="true" sortIndex="1" type="model">
-          <categoryLinks>
-            <categoryLink name="Support" id="dc67-25dc-539f-bd4c" hidden="false" primary="true" targetId="1711-6069-af06-c5cc"/>
-            <categoryLink name="Commonwealth" id="9a9d-6c53-2f3a-41d5" hidden="false" primary="false" targetId="1f78-904a-a9b7-2c8f"/>
-            <categoryLink name="Russian" id="13af-bbac-56b1-9811" hidden="false" primary="false" targetId="64b9-23dd-5700-e555"/>
-            <categoryLink name="Surface" id="86fd-d554-0789-bc58" hidden="false" primary="false" targetId="4b7e-c78d-b9be-8d7c"/>
-            <categoryLink name="Ekranoplan" id="c30b-9577-3942-d2cd" hidden="false" primary="false" targetId="42a9-0580-764b-ec1f"/>
-            <categoryLink name="Light Vessel" id="4104-e7a7-f320-1b8b" hidden="false" primary="false" targetId="a788-9613-7ce1-5dd9"/>
-          </categoryLinks>
           <constraints>
             <constraint id="76e7-6c88-6258-6646" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="7554-3431-64bf-d989" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
@@ -7914,14 +7898,6 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
       </profiles>
       <selectionEntries>
         <selectionEntry name="Defence Platform" id="ceee-3747-89c1-5cef" hidden="false" import="true" sortIndex="1" type="model">
-          <categoryLinks>
-            <categoryLink name="Support" id="4ec9-c4a2-20f6-b7d1" hidden="false" primary="true" targetId="1711-6069-af06-c5cc"/>
-            <categoryLink name="Commonwealth" id="4957-7251-deee-9184" hidden="false" primary="false" targetId="1f78-904a-a9b7-2c8f"/>
-            <categoryLink name="Immobile" id="241e-459f-3dd9-f74e" hidden="false" primary="false" targetId="476a-e46d-4ab3-da6f"/>
-            <categoryLink name="Mongolian" id="6011-b6ab-1b5a-335a" hidden="false" primary="false" targetId="7e0e-10ce-1715-aa28"/>
-            <categoryLink name="Surface" id="fa5a-b9fe-2e0f-db50" hidden="false" primary="false" targetId="4b7e-c78d-b9be-8d7c"/>
-            <categoryLink name="Platform" id="1430-e00f-4d41-6301" hidden="false" primary="false" targetId="7875-66cc-53c0-2e19"/>
-          </categoryLinks>
           <constraints>
             <constraint id="5e69-e7c4-687b-6189" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="39f3-c721-d548-eb6c" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
@@ -8984,13 +8960,6 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
       </profiles>
       <selectionEntries>
         <selectionEntry name="Sineus" id="9145-d41c-e75f-3d41" hidden="false" import="true" sortIndex="1" type="model">
-          <categoryLinks>
-            <categoryLink name="Scout" id="4558-12df-6395-bd4d" hidden="false" primary="true" targetId="28fc-32cc-7e9c-28b4"/>
-            <categoryLink name="Commonwealth" id="5454-84a4-4708-9f48" hidden="false" primary="false" targetId="1f78-904a-a9b7-2c8f"/>
-            <categoryLink name="Ship" id="841d-fb05-0c0c-c6ce" hidden="false" primary="false" targetId="fc9a-5e99-1f83-c2a4"/>
-            <categoryLink name="Russian" id="eaf5-1c58-93ee-772e" hidden="false" primary="false" targetId="64b9-23dd-5700-e555"/>
-            <categoryLink name="Surface" id="a547-be01-d4d3-eb66" hidden="false" primary="false" targetId="4b7e-c78d-b9be-8d7c"/>
-          </categoryLinks>
           <constraints>
             <constraint id="7a21-2728-4d3e-cc45" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="49fb-2d59-e698-3158" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
@@ -9399,13 +9368,6 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
       </profiles>
       <selectionEntries>
         <selectionEntry name="Yak" id="c87e-cc48-f2b7-2019" hidden="false" import="true" sortIndex="1" type="model">
-          <categoryLinks>
-            <categoryLink name="Scout" id="b226-ed44-8c10-ff92" hidden="false" primary="true" targetId="28fc-32cc-7e9c-28b4"/>
-            <categoryLink name="Commonwealth" id="8736-1809-c8ed-d9df" hidden="false" primary="false" targetId="1f78-904a-a9b7-2c8f"/>
-            <categoryLink name="Hovercraft" id="14a8-14d8-a31c-7712" hidden="false" primary="false" targetId="d041-8630-54dd-913e"/>
-            <categoryLink name="Surface" id="8c05-2cf4-35f2-4bc1" hidden="false" primary="false" targetId="4b7e-c78d-b9be-8d7c"/>
-            <categoryLink name="Russian" id="d452-327d-7dcf-d9f3" hidden="false" primary="false" targetId="64b9-23dd-5700-e555"/>
-          </categoryLinks>
           <constraints>
             <constraint id="1a13-d365-9535-ffc8" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
             <constraint id="eee8-d0de-2a03-7734" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
@@ -9805,16 +9767,6 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
       </profiles>
       <selectionEntries>
         <selectionEntry name="Hermes" id="9ef1-8fe1-ac58-2fd6" hidden="false" import="true" sortIndex="1" type="model">
-          <categoryLinks>
-            <categoryLink name="Ship" id="6bce-f7aa-c962-5101" hidden="false" primary="false" targetId="fc9a-5e99-1f83-c2a4"/>
-            <categoryLink name="Repair" id="a3db-ccc4-ad8f-783b" hidden="false" primary="false" targetId="cb1d-41cb-d83d-fd73"/>
-            <categoryLink name="Logistical" id="78ab-d9f2-9f7e-d75d" hidden="false" primary="true" targetId="366f-016b-5f80-0c09"/>
-            <categoryLink name="Commonwealth" id="ad33-870c-a29d-f28f" hidden="false" primary="false" targetId="1f78-904a-a9b7-2c8f"/>
-            <categoryLink name="Surface" id="a05e-e768-bc13-df39" hidden="false" primary="false" targetId="4b7e-c78d-b9be-8d7c"/>
-            <categoryLink name="Depot" id="4aee-029b-a3f3-9f6f" hidden="false" primary="false" targetId="5ca3-1be9-4a5c-64ba"/>
-            <categoryLink name="Merchantman" id="0a3d-932a-b089-4e54" hidden="false" primary="false" targetId="33e6-1c11-bb7d-3918"/>
-            <categoryLink name="Light Vessel" id="c572-b814-23d6-1c71" hidden="false" primary="false" targetId="a788-9613-7ce1-5dd9"/>
-          </categoryLinks>
           <constraints>
             <constraint id="95d1-0575-e87c-0e1e" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="88ee-c021-a2a0-67e1" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
@@ -9905,15 +9857,6 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
       </profiles>
       <selectionEntries>
         <selectionEntry name="Supply Platform" id="1bc4-e125-4a6d-db34" hidden="false" import="true" sortIndex="1" type="model">
-          <categoryLinks>
-            <categoryLink name="Repair" id="5d9e-a55c-8280-ac6e" hidden="false" primary="false" targetId="cb1d-41cb-d83d-fd73"/>
-            <categoryLink name="Logistical" id="e692-2db4-ca68-9bed" hidden="false" primary="true" targetId="366f-016b-5f80-0c09"/>
-            <categoryLink name="Commonwealth" id="f0af-e5cd-7119-2c8c" hidden="false" primary="false" targetId="1f78-904a-a9b7-2c8f"/>
-            <categoryLink name="Immobile" id="3e79-441b-f4ab-e309" hidden="false" primary="false" targetId="476a-e46d-4ab3-da6f"/>
-            <categoryLink name="Mongolian" id="26b1-f761-bd69-2a6c" hidden="false" primary="false" targetId="7e0e-10ce-1715-aa28"/>
-            <categoryLink name="Surface" id="51a6-84a4-5f29-711c" hidden="false" primary="false" targetId="4b7e-c78d-b9be-8d7c"/>
-            <categoryLink name="Platform" id="40ca-c0ee-344d-26d1" hidden="false" primary="false" targetId="7875-66cc-53c0-2e19"/>
-          </categoryLinks>
           <constraints>
             <constraint id="abfc-2938-f037-d56d" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="611b-8ce5-f93e-e91c" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
