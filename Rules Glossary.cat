@@ -246,10 +246,9 @@ When this Special Action is resolved, each enemy model within 10” of at least
 Underwater units that gain Disorder in this way are subject to the Blow the Tanks rule.</description>
     </rule>
     <rule name="Sky Strike" id="6400-a54d-1cf4-3704" hidden="false">
-      <description>If the Initial Target of this attack is an Airborne model, increase each of this weapon’s Firepower ratings by X.
+      <description>If the Initial Target of this attack is an Airborne model, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.
 
-
-Firepower ratings that do not have a value are not increased. In addition, if all weapons Contributing to this attack have this quality, the Unconventional Target rule does not apply.</description>
+In addition, if one or more of the weapons Contributing to an Attack action have this Quality, the Unconventional Target rule does not apply.</description>
       <alias>SkyStrike</alias>
     </rule>
     <rule name="Arc Generator" id="f936-862f-4c66-f598" hidden="false">
@@ -591,7 +590,7 @@ The Cryo-Shard must be placed within 1” of the Generator Effect token, and not
 
 
 CRYO-SHARD
-The Cryo-Shard’s Mass is increased by 1 for each Success, up to a maximum Mass of 5. </description>
+The Cryo-Shard’s Mass is increased by 1 for each Success, up to a maximum Mass of 5.</description>
     </rule>
     <rule name="Great Wall Generator" id="e0e8-beca-e662-2231" hidden="false">
       <description>This is a Generator.
@@ -794,9 +793,13 @@ Here are the SRS that can perform specific missions. 
 TALON ASSAULT MISSION, GROUND SUPPORT MISSION, SUPPLY DROP MISSION</description>
     </rule>
     <rule name="Boosted Propulsion" id="6940-e4db-0cde-2e75" hidden="false">
-      <description>Before moving this model, its Admiral can declare that they will Boost its Propulsion.
+      <description>Before moving this model, its Admiral can declare that they will Boost its Propulsion. 
 
-If they do so, then for the duration of the current Movement Step, the model’s Minimum Speed is increased to its unmodified Maximum Speed, its Maximum Speed by X”, and its Turn Limit reduced to 0.</description>
+
+If they do so, then for the duration of the current Movement Step, the model’s Minimum Speed is increased to its unmodified Maximum Speed, its Maximum Speed by X”, and its Turn Limit reduced to 0. 
+
+
+*Note, if a unit has any means of Pivoting or Turning without Coming About (such as the Vitruvian Form, Mobile, or Interphase Generator properties/systems), the controlling Admiral can not choose to Boost its Propulsion in an activation in which they use any of those properties/systems to turn.*</description>
     </rule>
     <rule name="Deck Sweepers" id="83d0-b12c-9e07-fc96" hidden="false">
       <description>When this model is chosen as the Target of a Boarding action, its Admiral can choose to make a Crew Check for it.
@@ -867,12 +870,22 @@ In addition, if all weapons Contributing to an Attack action have this Quality 
 
 
 In addition, a model with this Property may not attempt Jury-Rigged Repairs.</description>
+      <alias>Temperemental</alias>
     </rule>
     <rule name="Voltaic" id="61c8-4691-c056-00b6" hidden="false">
-      <description>Each of this weapon’s Firepower ratings are increased by X for each System Failure Critical Damage Effect the target has. 
+      <description>As a Special Action, a unit containing one or more models with the Voltaic (X) quality on at least one of its weapons may Charge Capacitors. If they do so, place a Special Effect token next to the unit. This is a Charge token. A unit can never have more than one Charge token.
 
 
-Firepower ratings that do not have a value are not increased.</description>
+The Charge Capacitors Special Action immediately ends the unit’s Action Step.
+
+
+When a unit with a Charge token declares an Attack action, its Admiral can discard the Token in order to Discharge Capacitors. If they do so, then at the end of the Resolve Re-rolls step, they can convert up to X dice (equal to the cumulative X value of all Contributing Voltaic (X) weapons) into Standard Strikes.
+
+
+A unit that has Discharged Capacitors cannot Charge Capacitors in the same Activation. 
+
+
+Additionally, if a model suffers a System Failure Critical Damage Effect while marked with a Charge token, make a Group Crew Check for the unit. If the Check fails, discard the unit’s Charge token.</description>
     </rule>
     <rule name="Invalid Target" id="3a0e-c59f-222d-12ef" hidden="false">
       <description>This weapon cannot Contribute to an Attack action if the Initial Target has any of the listed Traits.</description>
@@ -1207,32 +1220,32 @@ A model cannot Rally if its unit contains one or more Crippled models.</descrip
       <description>This is a Generator.
 As a Special Action, this model’s unit can Slow an enemy unit, provided it is Visible.
 Only models with a Langsam Generator can Participate in this Action.
-When making this Action, the active Admiral chooses an enemy model within 10” of a Participating model to be the Main Target. They then roll a number of Action Dice equal to the number of Participating models, select the die of their choice, and resolve the corresponding result from the table below.
+When making this Action, the active Admiral chooses an enemy model within 10” of a Participating model to be the Initial Target.
+
+They then roll a number of Action Dice equal to the number of Participating models. If at least one Participating model has the Capital trait, they roll 1 additional die. Then they select the die of their choice, and resolve the corresponding result from the table below.
 
 
 1. EXPLODE
-The Main Target suffers 1 Critical
-Damage Effect.
-In addition, the Main Target’s unit is
-Slowed (as described below).
+The Initial Target suffers 1 Critical Damage Effect and 1 Disorder.
+In addition, the Initial Target’s unit is Slowed (as described below).
 
 
 2. STANDARD/HEAVY STRIKE
-The Main Target suffers 1 Damage.
-In addition, the Main Target’s unit is Slowed (as described below).
+The Initial Target suffers 1 Damage.
+In addition, the Initial Target’s unit is Slowed (as described below).
 
 
 3. COUNTER/HEAVY COUNTER
-The Main Target’s unit is Slowed (as described below).
+The Initial Target’s unit is Slowed (as described below).
 
 4. BLANK
 Each Participating model suffers a System Failure Critical Damage Effect.
+
+
+
 To show that a unit is Slowed, mark it with a Generator Effect token.
-
-
-While a unit is Slowed, its Action Limit has a -1 Modifier, and its Maximum Speed is reduced to its Minimum Speed.
-At the end of the unit’s next Activation, it stops being
-Slowed and the Generator Effect token is removed.</description>
+While a unit is Slowed, its Action Limit has a -1 Modifier (to a minimum of 1), and its Maximum Speed is halved, or reduced to its Minimum Speed, whichever is higher.
+At the end of the unit’s next Activation, it stops being Slowed and the Generator Effect token is removed.</description>
     </rule>
     <rule name="Interphase Navigator" id="f3c6-f1f3-cb24-5eac" hidden="false">
       <description>At the end of this unit’s Activation, its Admiral can attempt a Turbo Encabulation Jump with it. (See the *Enlightened ORBAT*.)</description>
@@ -1333,7 +1346,8 @@ If at least one die matches the declared Effect, a single instance of that Eff
     <rule name="Dirigible" id="8106-fe79-c529-936d" hidden="false">
       <description>Whenever this model would suffer a Breach or Structural Failure Critical Damage Effect, it suffers two instances of that Effect instead.</description>
     </rule>
-    <rule name="Reclamator Swarm" id="f627-0508-3b47-f7cb" hidden="false">
+    <rule name="Reclamator Swarm" id="f627-0508-3b47-f7cb" hidden="true">
+      <comment>gone?</comment>
       <description>If an enemy Surface model ends its Activation within 4” of this model, this model’s Admiral rolls an Action Die. 
 
 
@@ -1415,17 +1429,12 @@ This grants the friendly model a +X Modifier to its Defences rating.
 Multiple models with this System can Protect the same friendly model. When this is the case, the Modifiers are added together.</description>
     </rule>
     <rule name="Deathblow" id="041e-a73a-127a-e91c" hidden="false">
-      <description>When declaring an Attack action with a unit that has at least one weapon with this Quality, they can announce that they will attempt a Deathblow.
+      <description>When declaring an Attack action with a unit that has at least one weapon with this Quality, this Admiral can declare that they will attempt a Deathblow.
 
 
-After the Declare Contributing Weapons step, the Admiral makes a Group Crew Check for the Participating models. 
+After the Declare Contributing Weapons step, the Admiral makes a Group Crew Check, including each Participating model with the Deathblow (X) quality on one of their weapons. If the Check is passed then each weapon in the unit with this Quality adds X to their Firepower ratings, but counts as having the Intensive quality.
 
-
-If the Check is passed then each weapon in the unit with this Quality doubles each of its Firepower ratings, but counts as having the Intensive quality.
-
-
-*Note that a Deathblow can only be attempted with a unit that
-has at least two Actions remaining.*</description>
+*Note that a Deathblow can only be attempted with a unit that has at least two Actions remaining.*</description>
     </rule>
     <rule name="Cruor" id="4873-e3e1-097f-2f02" hidden="false">
       <description>After resolving an Attack action in which one or more weapons with this Quality Contributed, the active Admiral may attempt to enact a Special Valour Effect with the active unit.
@@ -1915,31 +1924,20 @@ An Atomic Generator provides no Unit Benefit to Immobile models.</description>
       <description>At the start of its Movement Step, this model can make a free Pivot before moving. 
 
 
-This model must always Pivot when it Comes About, but these Pivots cost 1” of Movement instead of 2”. 
+In addition, this model must always Pivot when it Comes About, but these Pivots cost 1” of Movement instead of 2”. 
 
 
-Additionally, this Admiral can declare a Ram with this model, even if it moves less than 3” before Colliding with an enemy model. 
-
-
-It automatically passes the Crew Check for Ramming</description>
+This Admiral can declare a Ram with this model, even if they move less than 3” before Colliding with an enemy model. 
+Additionally, they automatically pass the Crew Check for Ramming.</description>
     </rule>
     <rule name="Vikingr" id="fcb2-c111-c9f6-ed99" hidden="false">
-      <description>When this model Participates in a Boarding action, the Target gains X Negative Effect tokens. These are Vikingr Tokens, and indicate that the target is Under Attack.
+      <description>When this model’s unit makes a Boarding action, its Admiral can choose a Target that is within 8” of this model, instead of the usual 4”. 
 
 
-On the target model’s next Activation, its unit can make a Special Action to Repel Boarders. Only models that are Under Attack can Participate, but a model can Participate in this Action multiple times during a single Activation.
+Models with this Property can Participate as long as they are within 8” of the Target. 
 
 
-For each Participating model, the active Admiral rolls a number of Action Dice equal to the model’s Crew rating.
-
-
-For each Strike, they remove one Vikingr token from the model.
-
-
-At the end of the model’s Activation, it suffers 1 Damage for each Vikingr token it still has. Then, all of its Vikingr tokens are removed, and it is no longer Under Attack.
-
-
-If multiple models with this property Participate in a Boarding action, the target gains a number of Vikingr tokens equal to the total of their X Values.</description>
+If the Boarding action scores at least one Success, the active Admiral can apply X Damage to the Target, in addition to any Critical Damage Effects</description>
     </rule>
     <rule name="Unconventional Target" id="a278-c478-0e76-4a48" hidden="false">
       <description>When an Airborne model is the target of an Attack action, any Standard Strikes and Heavy Strikes in the Resistance Roll are converted to Standard Counters.
@@ -1958,16 +1956,7 @@ They do not need to make a Reserve Roll for the unit; it arrives automatically.
 The unit is not marked with an Incoming status token, but when it is Activated later in the Round, its Maximum Speed is halved (rounding up) and its Action Limit has a -1 Modifier, to a minimum of 1.</description>
     </rule>
     <rule name="Teutonic Construct" id="bd87-f76a-4ae6-5cec" hidden="false">
-      <description>When a Repair Roll is made for this model, Heavy Strikes do not allow the Admiral to remove Critical Damage Effects. 
-
-
-However, if this model is Battle-Ready when the Repair Roll is made, any number of Exploding Strikes can be used to make Structural Repairs instead of being used to remove Critical Damage Effects. 
-
-
-For each die that is used to make Structural Repairs, remove 1 point of Damage from this model.
-
-
-A model with this Property may not attempt Jury-Rigged Repairs, and cannot benefit from the Repair Facilities (X) system.</description>
+      <description>When making a Repair Roll for a Battle-Ready model with this rule, any unused Exploding Strikes (after all Critical Damage Effects have been removed) can be used to remove 1 point each of Damage.</description>
     </rule>
     <rule name="Terrifying" id="d242-3d18-5936-a8e7" hidden="false">
       <description>Once this model’s unit has completed its Movement Step, any models (friend or foe) within 5” immediately gain 1 level of Disorder.
@@ -1985,10 +1974,9 @@ If the Check passes, the unit immediately loses the Surfacing status.</descript
     <rule name="Storm Generator" id="cba8-f66f-64d2-eb43" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
 
-When a model in this unit is the Initial Target of an Attack action, or the Target of a Boarding action, the opposing Admiral must re-roll any Heavy Strikes in the Action Roll.
+When a model in this unit is the Initial Target of an Attack or Boarding action, this Admiral may re-roll Blanks during the Resolve Re-roll step.
 
-
-Additionally, at the end of this unit’s Activation, each enemy model in Proximity of at least one model in the unit with this System gains 1 level of Disorder.</description>
+Additionally, at the end of this unit’s Movement Step, each enemy model in Proximity of at least one model with this System gains 1 level of Disorder.</description>
     </rule>
     <rule name="Stoic" id="639c-9bf5-e016-565d" hidden="false">
       <description>Whenever this model would raise its Disorder level from 0 to 1, it gains a Stoic token instead, unless it already has one.
@@ -2444,17 +2432,13 @@ The Admiral repeats stages 2 to 4 as many times as they wish.
 Each enemy model can only be chosen to be the Target once per Broadside action.</description>
     </rule>
     <rule name="Celerity" id="1723-8a3a-53b3-f12d" hidden="false">
-      <description>After this Attack has been resolved, the active Admiral can attempt to enact a Special Valour Effect with the active unit.
+      <description>After resolving an Attack action in which a weapon with this quality Contributed, make a Group Crew Check for the unit, including any number of models with this quality on one of their weapons.
 
+If the Check is passed, the unit can perform an immediate Follow-Up Attack.
 
-If the effect is successfully enacted, this unit can immediately make a Follow-Up Attack.
+Each model that was included in the Check can Pivot and move up to 4” directly forwards.
 
-
-First, each model in this unit that has a weapon with this Quality can immediately Pivot and move up to 4” straight forwards. 
-
-
-Then, this unit makes another Attack action, which does not count towards its Action limit. Only weapons with this quality can Contribute to this action.
-
+These models can then Participate in a new Attack action in which only weapons with this quality can Contribute, but which does not count towards the unit’s Action Limit.
 
 A unit can only make one Follow-Up Attack per Activation.</description>
     </rule>
@@ -2830,10 +2814,12 @@ However, this model does not benefit from the Unconventional Target rule when i
 *Note that this model can be the target of a Broadside action if the Contributing model is Airborne, or has the Broadside Cascade property.*</description>
     </rule>
     <rule name="Soar" id="3fe0-6514-7001-149d" hidden="false">
-      <description>This model can move into or through all Terrain Features without Colliding with them, and can still Rally when it is within Proximity of them. 
+      <description>This model is not Impeded by Treacherous Water, does not Trigger Minefield markers, and never suffers Critical Damage as a result of contacting a Wreck marker.
 
+This model can move into or through all Terrain Features without Colliding with them, and can still Rally when it is within Proximity of them.
 
-This model can Pass Through other models, and they can Pass Through it.</description>
+This model can Pass Through other models, and they can Pass Through it.
+If this model is the Initial Target of an Attack action, Submerged weapons cannot Contribute.</description>
     </rule>
     <rule name="Depth Charge" id="ba63-7782-840f-7051" hidden="false">
       <description>An Underwater model can be chosen as the Initial Target of this Attack action, as long as all Contributing weapons have this Quality. 
@@ -3173,17 +3159,12 @@ Each time it Contributes to an attack, the Target must be in a different Target
     <rule name="Gaseous" id="3ca5-4e12-340b-68c6" hidden="false">
       <description>If all weapons Contributing to an Attack action have this Quality, the Attack is considered Gaseous.
 
+When resolving a Gaseous attack, each Success scored in the Action Roll inflicts 1 Disorder instead of 1 Damage.
 
-When resolving a Gaseous attack, each Success scored in the Action Roll inflicts 1 Disorder instead of 1 Damage.
-
-
-If this would cause the Target to gain more than 3 levels of Disorder, then each excess point of Disorder inflicts 1 Damage instead. 
+If this would cause the Target to gain more than 3 levels of Disorder, then each excess point of Disorder inflicts 1 Damage instead. A Gaseous attack does not trigger the Under Fire rule. However any model suffering Damage as the result of a Gaseous attack automatically gains a Hazard Critical Damage token if it does not already have one.
 
 
-A Gaseous attack does not trigger the Under Fire rule. However any model suffering Damage as the result of a Gaseous attack automatically gains a Hazard Critical Damage token if it does not already have one.
-
-
-*Note: Disorder Spreads as normal even when Damage is inflicted. Additionally, if the Jade Fury Battlefleet Bonus is in effect (see the Empire ORBAT ), the target suffers 1 Damage for each excess point of Disorder and not 2.*</description>
+*Note: Disorder Spreads as normal even when Damage is inflicted. Additionally, if the Jade Fury Battlefleet Bonus is in effect (see the Empire ORBAT ), the target suffers 1 Damage for each excess point of Disorder and not 2.*</description>
     </rule>
     <rule name="Protective Fire" id="5232-b34c-9032-a1aa" hidden="false">
       <description>When a model with this weapon is the target of an Attack Run mission, or of an Attack action in which at least one weapon with the Barrage quality is Contributing, it may perform Protective Fire.
@@ -3409,6 +3390,19 @@ The Defences rating of a unit with this System is marked with an asterisk (*) a
     <rule name="E.S.C.F Munitions" id="131c-24c8-8734-9bfa" hidden="false">
       <description>If all weapons Contributing to an Attack action have this Quality, the Admiral can re-roll any Blanks in the Action Roll.</description>
       <alias>ESCF Munitions</alias>
+    </rule>
+    <rule name="Flight Of The Valkyries" id="bbe4-c324-38c1-b668" hidden="false">
+      <description>Once per game, this model’s unit can make a Special Action to Let Loose the Valkyries.
+When it does, the unit’s Admiral sets up a new unit of X Valkyrie Hunt Rotors.
+ 
+Each model in the new unit must be placed within 4” of a model in the active unit, and no model can be placed within 1” of a model outside the active unit.
+
+The new unit is marked with an Activated status token. It is now a fully-fledged unit within the Force, and can be activated as normal from next Round onwards.
+
+Additionally, Valkyrie Hunt Rotor units within 7” of a model with this property have the Stoic property.</description>
+    </rule>
+    <rule name="Bomber" id="f597-1243-6222-3d71" hidden="false">
+      <description>During the Resolve Critical Damage step of an Attack Run mission that contained at least one SRS token with this property, each Attack Run Target with at least 1 die allocated to it suffers 1 Damage.</description>
     </rule>
   </sharedRules>
 </catalogue>

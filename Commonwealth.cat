@@ -5085,12 +5085,13 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Escorts" id="b6bc-f883-1361-f5dd" hidden="false" import="true" sortIndex="3" targetId="bd6e-dbef-4baf-e017" type="selectionEntry">
+        <entryLink name="Escorts" id="b6bc-f883-1361-f5dd" hidden="false" import="true" sortIndex="4" targetId="bd6e-dbef-4baf-e017" type="selectionEntry">
           <constraints>
             <constraint id="d447-5b0b-64b1-9958" field="selections" scope="parent" shared="true" type="max" value="4"/>
           </constraints>
         </entryLink>
-        <entryLink name="Attachments" id="26f4-12ab-238d-1144" hidden="false" import="true" sortIndex="2" targetId="ea67-cb8e-a4c7-e7c6" type="selectionEntryGroup"/>
+        <entryLink name="Attachments" id="26f4-12ab-238d-1144" hidden="false" import="true" sortIndex="3" targetId="ea67-cb8e-a4c7-e7c6" type="selectionEntryGroup"/>
+        <entryLink name="Upgrades" id="4aa1-549e-51ec-b9f1" hidden="false" import="true" sortIndex="2" targetId="a446-e639-858c-8b24" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
         <modifier field="2a60-504e-a81d-13cd" type="set" value="2">
@@ -5154,11 +5155,25 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Descend, Dirigible, Maritime Patrol, Stoic</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="066c-1ce6-091e-90ab" join=", " type="append" value="Flak Barrage (4)">
+              <conditions>
+                <condition childId="0551-d623-b9d8-bf95" childName="Zubr Anti-Air Array" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Jadwiga" id="0241-0a3f-59e0-2771" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+6”), Overthrusters (7&quot;)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="a14c-99af-eb72-2d3d" join=", " type="append" value="Shockwave Generator">
+              <conditions>
+                <condition childId="fbd6-5017-4042-bc37" childName="Giyena Dissonance Array" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Jadwiga" id="e324-49e6-e8b6-9ab3" hidden="false" typeId="9251-e433-d856-630b" typeName="Model">
           <characteristics>
@@ -6413,12 +6428,13 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
         <constraint id="dc07-b069-31c3-1a9b" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Escorts" id="dd54-df9f-0393-95d9" hidden="false" import="true" sortIndex="3" targetId="bd6e-dbef-4baf-e017" type="selectionEntry">
+        <entryLink name="Escorts" id="dd54-df9f-0393-95d9" hidden="false" import="true" sortIndex="4" targetId="bd6e-dbef-4baf-e017" type="selectionEntry">
           <constraints>
             <constraint id="95cb-98cf-8103-97ce" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
         </entryLink>
-        <entryLink name="Attachments" id="4f75-b823-d67e-23af" hidden="false" import="true" sortIndex="2" targetId="ea67-cb8e-a4c7-e7c6" type="selectionEntryGroup"/>
+        <entryLink name="Attachments" id="4f75-b823-d67e-23af" hidden="false" import="true" sortIndex="3" targetId="ea67-cb8e-a4c7-e7c6" type="selectionEntryGroup"/>
+        <entryLink name="Upgrades" id="e7e6-7d14-ed01-198f" hidden="false" import="true" sortIndex="2" targetId="a446-e639-858c-8b24" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
         <modifier field="dc07-b069-31c3-1a9b" type="set" value="2">
@@ -6512,11 +6528,25 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Descend, Dirigible, Stoic</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="066c-1ce6-091e-90ab" join=", " type="append" value="Flak Barrage (4)">
+              <conditions>
+                <condition childId="0551-d623-b9d8-bf95" childName="Zubr Anti-Air Array" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Voivode" id="8f8b-1be7-1dad-0349" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+4”), Overthrusters (7&quot;)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="a14c-99af-eb72-2d3d" join=", " type="append" value="Shockwave Generator">
+              <conditions>
+                <condition childId="fbd6-5017-4042-bc37" childName="Giyena Dissonance Array" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <selectionEntries>
@@ -9294,12 +9324,13 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
         <constraint id="3c9b-6045-1b84-cae4" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Escorts" id="df9c-29af-4c64-507a" hidden="false" import="true" sortIndex="3" targetId="bd6e-dbef-4baf-e017" type="selectionEntry">
+        <entryLink name="Escorts" id="df9c-29af-4c64-507a" hidden="false" import="true" sortIndex="4" targetId="bd6e-dbef-4baf-e017" type="selectionEntry">
           <constraints>
             <constraint id="3f4f-c473-7055-6fae" field="selections" scope="parent" shared="true" type="max" value="4"/>
           </constraints>
         </entryLink>
-        <entryLink name="Attachments" id="ef98-8c93-4144-3049" hidden="false" import="true" sortIndex="2" targetId="ea67-cb8e-a4c7-e7c6" type="selectionEntryGroup"/>
+        <entryLink name="Attachments" id="ef98-8c93-4144-3049" hidden="false" import="true" sortIndex="3" targetId="ea67-cb8e-a4c7-e7c6" type="selectionEntryGroup"/>
+        <entryLink name="Upgrades" id="0685-f1e4-8080-a4a5" hidden="false" import="true" sortIndex="2" targetId="a446-e639-858c-8b24" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -9333,34 +9364,22 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (2), Agile (1), Amphibious, Azhdaya Berserkers, Boarding Parties (7), Elevated, Ground Assault (1), Strategic Asset (2)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="066c-1ce6-091e-90ab" join=", " type="append" value="Flak Barrage (4)">
+              <conditions>
+                <condition childId="0551-d623-b9d8-bf95" childName="Zubr Anti-Air Array" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Yak" id="f18b-57e0-c5c9-0082" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Lateral Engines (2”)</characteristic>
           </characteristics>
-        </profile>
-        <profile name="Giyena" id="40e9-9326-e93b-354a" hidden="true" typeId="72b1-e351-6742-457c" typeName="Systems">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Lateral Engines (2”), Shockwave Generator</characteristic>
-          </characteristics>
           <modifiers>
-            <modifier field="hidden" type="set" value="false">
+            <modifier field="a14c-99af-eb72-2d3d" join=", " type="append" value="Shockwave Generator">
               <conditions>
-                <condition childId="08a6-347d-a1e7-b85e" field="selections" includeChildForces="false" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Zubr" id="6989-113e-b51e-c520" hidden="true" typeId="7d8a-def1-ca09-d15c" typeName="Properties">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (2), Agile (1), Amphibious,
-Azhdaya Berserkers, Boarding Parties (7),
-Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier field="hidden" type="set" value="false">
-              <conditions>
-                <condition childId="2d3d-6f68-8f99-66df" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="1"/>
+                <condition childId="fbd6-5017-4042-bc37" childName="Giyena Dissonance Array" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9377,25 +9396,6 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Ship Upgrades" id="94b5-794c-32cf-e11c" hidden="false" sortIndex="2">
-              <constraints>
-                <constraint id="5a63-b513-9d17-43d7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry name="Zubr Anti-Air Array" id="2d3d-6f68-8f99-66df" hidden="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
-                    <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry name="Giyena Dissonance Array" id="08a6-347d-a1e7-b85e" hidden="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
-                    <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Light Hardpoint: FS" id="04a4-c97d-9125-9898" collapsible="true" hidden="false" sortIndex="1">
               <constraints>
                 <constraint id="554b-5bff-6727-be1d" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -11298,6 +11298,39 @@ When a Polish-Lithuanian Surface unit in this Force Activates, its Admiral may d
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Upgrades" id="a446-e639-858c-8b24" hidden="false">
+      <comment>zubr and shockwave</comment>
+      <constraints>
+        <constraint id="f523-d276-24d0-0bfc" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Giyena Dissonance Array" id="fbd6-5017-4042-bc37" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier field="89fa-eeaa-958f-ca32" type="increment" value="10">
+              <repeats>
+                <repeat childId="model" childName="model" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry name="Zubr Anti-Air Array" id="0551-d623-b9d8-bf95" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier field="89fa-eeaa-958f-ca32" type="increment" value="5">
+              <repeats>
+                <repeat childId="model" childName="model" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
+              </repeats>
             </modifier>
           </modifiers>
         </selectionEntry>

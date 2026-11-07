@@ -117,6 +117,49 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
     <categoryEntry name="FSA" id="03f4-7355-2934-969a" hidden="false"/>
     <categoryEntry name="GenAmount1" id="afce-9b7a-9e0a-a773" hidden="true"/>
     <categoryEntry name="Gencost20" id="378d-fd54-66bd-9a79" hidden="true"/>
+    <categoryEntry name="RETIRED" id="a714-05db-e1e9-a851" hidden="false"/>
+    <categoryEntry name="Ubiquitous" id="e544-1c21-e40f-3de3" hidden="true"/>
+    <categoryEntry name="ST:1-4" id="4c64-eb0a-00f0-978d" hidden="true"/>
+    <categoryEntry name="LA:1" id="c8ed-5cb3-df76-39dc" hidden="true"/>
+    <categoryEntry name="ST:1-2" id="63d9-4667-59b2-adee" hidden="true"/>
+    <categoryEntry name="ST:1-3" id="dd8c-4fcb-6b7a-6a20" hidden="true"/>
+    <categoryEntry name="ST:1-6" id="0f65-1765-5a37-092d" hidden="true"/>
+    <categoryEntry name="LA:1-5" id="468e-f49f-7054-461e" hidden="true"/>
+    <categoryEntry name="ST:2-8" id="bbbc-8514-d8bc-16f5" hidden="true"/>
+    <categoryEntry name="LA:0" id="5479-7703-5433-ff8e" hidden="true"/>
+    <categoryEntry name="ST:2-3" id="c0c1-7c86-dfc8-116a" hidden="true"/>
+    <categoryEntry name="ST:2-4" id="51da-f369-f63f-ee4c" hidden="true"/>
+    <categoryEntry name="ST:2-5" id="9c47-5b80-6b48-a97f" hidden="true"/>
+    <categoryEntry name="LA:2-6" id="63cc-7377-357d-d20b" hidden="true"/>
+    <categoryEntry name="ST:2-7" id="517a-2ebb-64b7-3760" hidden="true"/>
+    <categoryEntry name="ST:0" id="5eae-e111-2fab-a751" hidden="true"/>
+    <categoryEntry name="ST:1" id="60f3-3721-b979-5ead" hidden="true"/>
+    <categoryEntry name="LA:1-2" id="b940-fb26-ba83-95c2" hidden="true"/>
+    <categoryEntry name="LA:1-3" id="1763-a6d8-c646-66c3" hidden="true"/>
+    <categoryEntry name="SM:1-4" id="cdca-5ee4-1cf2-379f" hidden="true"/>
+    <categoryEntry name="ST:1-5" id="6a0f-2adc-452e-e567" hidden="true"/>
+    <categoryEntry name="LA:1-6" id="e44f-0ae0-ad3c-a93e" hidden="true"/>
+    <categoryEntry name="LA:2-3" id="9171-4a4d-b3ea-d362" hidden="true"/>
+    <categoryEntry name="LA:2-4" id="ee7f-24b7-bf25-6abd" hidden="true"/>
+    <categoryEntry name="LA:2-5" id="0e7c-0902-f5c2-019a" hidden="true"/>
+    <categoryEntry name="ST:2-6" id="3b4c-7d29-44eb-182b" hidden="true"/>
+    <categoryEntry name="LA:2-7" id="2419-477f-f8aa-347c" hidden="true"/>
+    <categoryEntry name="LA:2-8" id="4f5d-55e7-e1b7-5e26" hidden="true"/>
+    <categoryEntry name="SM:2-8" id="3acc-b787-d80e-bca9" hidden="true"/>
+    <categoryEntry name="SM:0" id="f27b-2f0c-2e12-0de8" hidden="true"/>
+    <categoryEntry name="SM:1" id="7eaa-58e6-5447-f951" hidden="true"/>
+    <categoryEntry name="SM:1-2" id="ad11-943d-9d0a-1f3c" hidden="true"/>
+    <categoryEntry name="SM:1-3" id="6e62-594e-d76b-b363" hidden="true"/>
+    <categoryEntry name="LA:1-4" id="911e-c30a-39a9-b905" hidden="true"/>
+    <categoryEntry name="SM:1-5" id="e2a8-72b2-da2c-40ad" hidden="true"/>
+    <categoryEntry name="SM:1-6" id="8659-a675-26dc-ee85" hidden="true"/>
+    <categoryEntry name="SM:2-3" id="51b8-1ce9-86d3-954d" hidden="true"/>
+    <categoryEntry name="SM:2-4" id="7636-f74d-59b6-ae35" hidden="true"/>
+    <categoryEntry name="SM:2-5" id="5679-79d2-dd00-1e5b" hidden="true"/>
+    <categoryEntry name="SM:2-6" id="11b2-6633-33db-aef2" hidden="true"/>
+    <categoryEntry name="SM:2-7" id="ca69-1fdf-cc7a-842e" hidden="true"/>
+    <categoryEntry name="Game Size" id="da09-72fe-a1cb-bb43" hidden="false"/>
+    <categoryEntry name="Mainstay" id="2042-d830-3f06-7e1b" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name="Points" id="89fa-eeaa-958f-ca32" defaultCostLimit="1500"/>
@@ -136,7 +179,6 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         <characteristicType name="Broadside" id="3759-b396-1f6b-7087"/>
         <characteristicType name="Repair" id="6ac3-e7ae-b47e-5c91"/>
         <characteristicType name="Crew" id="3a60-6bb3-d331-8272"/>
-        <characteristicType name="Models" id="3fd7-54b8-bc78-4b5c"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Properties" id="7d8a-def1-ca09-d15c" hidden="false" sortIndex="4">
@@ -177,14 +219,14 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
   <sharedProfiles>
     <profile name="Blitzen Bombers" id="b9cf-f00e-579b-ef39" hidden="false" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons">
       <attributes>
-        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (System Failure)</attribute>
+        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Bomber, Offensive</attribute>
       </attributes>
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
-        <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
+        <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">1</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
-        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Offensive, Surgical Strike (System Failure)</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Bomber, Offensive</characteristic>
         <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
     </profile>
@@ -286,7 +328,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">2</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
-        <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">3</characteristic>
+        <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (System Failure)</characteristic>
         <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
@@ -398,16 +440,16 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Talon Assault Mission, Ground Support Mission, Supply Drop Mission</characteristic>
       </characteristics>
     </profile>
-    <profile name="Vali Midget Subs" id="3e7e-fe52-6877-8d5e" hidden="false" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons">
+    <profile name="Garmr Mini-Subs" id="3e7e-fe52-6877-8d5e" hidden="false" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons">
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Breach / System Failure), Underwater SRS</attribute>
       </attributes>
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
-        <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
+        <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">1</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
-        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (Breach / System Failure), Underwater SRS</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exceptional, Superior Mine Clearance, Surgical Strike (Breach), Underwater SRS</characteristic>
         <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission</characteristic>
       </characteristics>
     </profile>
@@ -1431,6 +1473,513 @@ This can be used to allow the unit to launch a Boarding action when it could not
           </profiles>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Engagement Scale" id="41f2-3906-6b95-4118" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Game Size" id="b590-9e5e-ccd4-3c39" hidden="false" primary="true" targetId="da09-72fe-a1cb-bb43"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Engagement Scale" id="0c07-0cfb-5f46-547d" hidden="false" import="true" targetId="e83c-d7ac-f6ce-fd39" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Dummy for unit sizes" id="6ae7-4346-960c-b532" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="2ac9-bb73-0deb-49ce" automatic="true" field="selections" scope="parent" shared="false" type="min" value="0"/>
+        <constraint id="527d-de62-751d-f81a" automatic="true" field="selections" scope="parent" shared="false" type="max" value="0"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Min/Max Logic</comment>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Max Standard</comment>
+              <modifiers>
+                <modifier field="527d-de62-751d-f81a" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="5eae-e111-2fab-a751" childName="ST:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="1">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="60f3-3721-b979-5ead" childName="ST:1" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="2">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="63d9-4667-59b2-adee" childName="ST:1-2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="3">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="dd8c-4fcb-6b7a-6a20" childName="ST:1-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="c0c1-7c86-dfc8-116a" childName="ST:2-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="4">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="4c64-eb0a-00f0-978d" childName="ST:1-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="51da-f369-f63f-ee4c" childName="ST:2-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="5">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="6a0f-2adc-452e-e567" childName="ST:1-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="9c47-5b80-6b48-a97f" childName="ST:2-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="6">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="0f65-1765-5a37-092d" childName="ST:1-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="3b4c-7d29-44eb-182b" childName="ST:2-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="7">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="517a-2ebb-64b7-3760" childName="ST:2-7" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="8">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="bbbc-8514-d8bc-16f5" childName="ST:2-8" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <comment>Max Small</comment>
+              <modifiers>
+                <modifier field="527d-de62-751d-f81a" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="f27b-2f0c-2e12-0de8" childName="SM:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="1">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="7eaa-58e6-5447-f951" childName="SM:1" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="2">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="ad11-943d-9d0a-1f3c" childName="SM:1-2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="3">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="6e62-594e-d76b-b363" childName="SM:1-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="51b8-1ce9-86d3-954d" childName="SM:2-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="4">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="cdca-5ee4-1cf2-379f" childName="SM:1-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="7636-f74d-59b6-ae35" childName="SM:2-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="5">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="e2a8-72b2-da2c-40ad" childName="SM:1-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="5679-79d2-dd00-1e5b" childName="SM:2-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="6">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="8659-a675-26dc-ee85" childName="SM:1-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="11b2-6633-33db-aef2" childName="SM:2-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="7">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="ca69-1fdf-cc7a-842e" childName="SM:2-7" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="8">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="3acc-b787-d80e-bca9" childName="SM:2-8" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <comment>Max Large</comment>
+              <modifiers>
+                <modifier field="527d-de62-751d-f81a" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="5479-7703-5433-ff8e" childName="LA:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="1">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="c8ed-5cb3-df76-39dc" childName="LA:1" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="2">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="b940-fb26-ba83-95c2" childName="LA:1-2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="3">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="1763-a6d8-c646-66c3" childName="LA:1-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="9171-4a4d-b3ea-d362" childName="LA:2-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="4">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="911e-c30a-39a9-b905" childName="LA:1-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="ee7f-24b7-bf25-6abd" childName="LA:2-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="5">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="468e-f49f-7054-461e" childName="LA:1-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="0e7c-0902-f5c2-019a" childName="LA:2-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="6">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="e44f-0ae0-ad3c-a93e" childName="LA:1-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="63cc-7377-357d-d20b" childName="LA:2-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="7">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="2419-477f-f8aa-347c" childName="LA:2-7" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="527d-de62-751d-f81a" type="set" value="8">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="4f5d-55e7-e1b7-5e26" childName="LA:2-8" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <comment>min Standard</comment>
+              <modifiers>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="5eae-e111-2fab-a751" childName="ST:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="1">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="60f3-3721-b979-5ead" childName="ST:1" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="63d9-4667-59b2-adee" childName="ST:1-2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="dd8c-4fcb-6b7a-6a20" childName="ST:1-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="4c64-eb0a-00f0-978d" childName="ST:1-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="6a0f-2adc-452e-e567" childName="ST:1-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="0f65-1765-5a37-092d" childName="ST:1-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="2">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="c0c1-7c86-dfc8-116a" childName="ST:2-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="51da-f369-f63f-ee4c" childName="ST:2-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="9c47-5b80-6b48-a97f" childName="ST:2-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="3b4c-7d29-44eb-182b" childName="ST:2-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="517a-2ebb-64b7-3760" childName="ST:2-7" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bbbc-8514-d8bc-16f5" childName="ST:2-8" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <comment>min Small</comment>
+              <modifiers>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="f27b-2f0c-2e12-0de8" childName="SM:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="1">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="7eaa-58e6-5447-f951" childName="SM:1" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="ad11-943d-9d0a-1f3c" childName="SM:1-2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="6e62-594e-d76b-b363" childName="SM:1-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="cdca-5ee4-1cf2-379f" childName="SM:1-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e2a8-72b2-da2c-40ad" childName="SM:1-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="8659-a675-26dc-ee85" childName="SM:1-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="2">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="51b8-1ce9-86d3-954d" childName="SM:2-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="7636-f74d-59b6-ae35" childName="SM:2-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="5679-79d2-dd00-1e5b" childName="SM:2-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="11b2-6633-33db-aef2" childName="SM:2-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="ca69-1fdf-cc7a-842e" childName="SM:2-7" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="3acc-b787-d80e-bca9" childName="SM:2-8" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <comment>min Large</comment>
+              <modifiers>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                        <condition childId="5479-7703-5433-ff8e" childName="LA:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="1">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="c8ed-5cb3-df76-39dc" childName="LA:1" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="b940-fb26-ba83-95c2" childName="LA:1-2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="1763-a6d8-c646-66c3" childName="LA:1-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="911e-c30a-39a9-b905" childName="LA:1-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="468e-f49f-7054-461e" childName="LA:1-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e44f-0ae0-ad3c-a93e" childName="LA:1-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier field="2ac9-bb73-0deb-49ce" type="set" value="2">
+                  <conditionGroups>
+                    <conditionGroup max="2" min="2" type="count">
+                      <conditions>
+                        <condition childId="9171-4a4d-b3ea-d362" childName="LA:2-3" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="ee7f-24b7-bf25-6abd" childName="LA:2-4" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="0e7c-0902-f5c2-019a" childName="LA:2-5" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="63cc-7377-357d-d20b" childName="LA:2-6" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="2419-477f-f8aa-347c" childName="LA:2-7" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="4f5d-55e7-e1b7-5e26" childName="LA:2-8" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry name="Dummy to hide for game sizes" id="69b2-36dd-dbc9-b45e" hidden="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="5479-7703-5433-ff8e" childName="LA:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="58ed-9d1c-0885-d74e" childName="Large (2250/2500/3000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="5eae-e111-2fab-a751" childName="ST:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="bae6-4bec-0376-e35f" childName="Standard (1250/1500/2000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="688f-5ea9-7792-63ba" childName="Small (500/750/1000)" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                    <condition childId="f27b-2f0c-2e12-0de8" childName="SM:0" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Dummy for duplicate classes" id="7c9e-1e8d-58ca-b534" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="cdae-f800-81ca-ceb1" field="selections" includeChildSelections="false" scope="force" shared="false" type="max" value="2"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Force Max</comment>
+          <modifiers>
+            <modifier field="cdae-f800-81ca-ceb1" type="increment" value="1">
+              <comment>Ubiq</comment>
+              <conditions>
+                <condition childId="e544-1c21-e40f-3de3" childName="Ubiquitous" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="cdae-f800-81ca-ceb1" type="increment" value="1">
+              <comment>Mainstay</comment>
+              <conditions>
+                <condition childId="2042-d830-3f06-7e1b" childName="Mainstay" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2515,6 +3064,47 @@ to all models in the unit.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Engagement Scale" id="e83c-d7ac-f6ce-fd39" hidden="false">
+      <constraints>
+        <constraint id="cc4a-1710-8566-f18c-min" automatic="true" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="cc4a-1710-8566-f18c-max" automatic="true" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Standard (1250/1500/2000)" id="bae6-4bec-0376-e35f" defaultAmount="1" hidden="false" import="true" sortIndex="2" type="upgrade">
+          <rules>
+            <rule name="Standard Engagement" id="0aaa-d985-7860-10b6" hidden="false">
+              <description>POINTS LIMITS: 1250/**1500**/2000
+
+PLAY AREA: 48” x 48”
+
+HAND SIZE: 6</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry name="Small (500/750/1000)" id="688f-5ea9-7792-63ba" hidden="false" import="true" sortIndex="1" type="upgrade">
+          <rules>
+            <rule name="Small Engagement" id="7a49-a766-3e9b-1813" hidden="false">
+              <description>POINTS LIMITS: 500/**750**/1000
+
+PLAY AREA: 36” x 48”
+
+HAND SIZE: 5</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry name="Large (2250/2500/3000)" id="58ed-9d1c-0885-d74e" hidden="false" import="true" sortIndex="3" type="upgrade">
+          <rules>
+            <rule name="Large Engagement" id="b7e1-b52d-e084-200c" hidden="false">
+              <description>POINTS LIMITS: 2250/**2500**/3000
+
+PLAY AREA: 72” x 48”
+
+HAND SIZE: 7</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
