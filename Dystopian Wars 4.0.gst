@@ -1989,7 +1989,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <constraint id="1ff4-de44-41fe-9db0" automatic="true" field="selections" includeChildSelections="true" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry name="Interphase Generator" id="0bc8-025a-2c49-38e0" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Interphase Generator" id="0bc8-025a-2c49-38e0" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="e8b3-16e9-6f19-2bec" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2019,7 +2019,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Interphase Generator" id="52bb-3969-c300-9949" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Atomic Generator" id="58f7-e7ee-9d53-bad0" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Atomic Generator" id="58f7-e7ee-9d53-bad0" defaultAmount="0" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="8258-b142-7b53-c744" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2050,7 +2050,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Atomic Generator" id="9ba1-2095-8f1a-5b2a" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Guardian Generator (2)" id="ce68-644b-be24-86aa" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Guardian Generator (2)" id="ce68-644b-be24-86aa" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="409d-4812-e7de-a55c" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2076,7 +2076,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Guardian Generator" id="5a5e-438b-e40b-3eb8" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Repulsion Generator" id="7b42-5dc9-b860-bbea" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Repulsion Generator" id="7b42-5dc9-b860-bbea" defaultAmount="0" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="247c-3f05-6239-5925" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2109,7 +2109,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Repulsion Generator" id="ec43-9cea-c44b-b95b" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Shroud Generator" id="1e62-0f8c-804b-ede0" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Shroud Generator" id="1e62-0f8c-804b-ede0" defaultAmount="0" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="0f30-4921-5d3f-d04b" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2134,7 +2134,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Shroud Generator" id="dc7b-181c-668e-7040" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Solex Generator " id="bf35-5171-b697-c69c" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Solex Generator " id="bf35-5171-b697-c69c" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="d770-e694-e774-eb88" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2159,7 +2159,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Solex Generator " id="6f31-26d5-4775-be53" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Trident Generator" id="9fd8-a76d-9026-6268" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Trident Generator" id="9fd8-a76d-9026-6268" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="9f71-83d6-40c3-3f3a" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2184,7 +2184,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Trident Generator" id="7606-cf82-c835-ddbf" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Great Wall Generator" id="0b42-df31-a12f-d63a" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Great Wall Generator" id="0b42-df31-a12f-d63a" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="fe49-3e82-d75b-f8ae" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2209,7 +2209,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Great Wall Generator" id="d409-31a3-f8d4-5c7b" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Heavy Shield Generator" id="9a2f-ce13-d6d6-b6f6" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Heavy Shield Generator" id="9a2f-ce13-d6d6-b6f6" defaultAmount="0" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="53d5-a010-d200-37a8" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2239,7 +2239,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Heavy Shield Generator" id="5448-b06b-2f2f-8447" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Magnetic Generator" id="f9c4-aa9a-2f26-e295" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Magnetic Generator" id="f9c4-aa9a-2f26-e295" defaultAmount="0" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="d12a-1c04-b6fc-5c0b" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2264,7 +2264,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Magnetic Generator" id="2569-34af-9dd0-274d" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Chrono Generator" id="a9de-8bf2-aa82-b79e" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Chrono Generator" id="a9de-8bf2-aa82-b79e" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="84ba-6866-0536-535d" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2289,7 +2289,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Chrono Generator" id="1661-036c-28a3-c8c2" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Fury Generator" id="619c-b2c8-2800-5d93" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Fury Generator" id="619c-b2c8-2800-5d93" defaultAmount="0" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="aff2-845a-c56e-0196" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2314,7 +2314,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Fury Generator" id="17be-04c3-5d80-a19a" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Langsam Generator" id="9e60-c630-2442-73e8" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Langsam Generator" id="9e60-c630-2442-73e8" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="5404-a2c2-022b-779b" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2339,7 +2339,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Langsam Generator" id="8b5a-2312-349a-e2f8" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Mirage Generator" id="be1b-6f5d-0fd4-9214" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Mirage Generator" id="be1b-6f5d-0fd4-9214" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="a212-a31f-9999-00f7" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2369,7 +2369,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Mirage Generator" id="4d3f-ecab-6339-69e0" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Null-Clone Generator" id="5807-0de8-d905-258f" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Null-Clone Generator" id="5807-0de8-d905-258f" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="05d3-0e0a-debc-c65a" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2394,7 +2394,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Null-Clone Generator" id="5e0f-ea40-cf74-1f8d" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Portal Generator" id="57ee-c42c-b782-3eac" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Portal Generator" id="57ee-c42c-b782-3eac" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="0cb4-7e8d-e7bb-b8a5" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -2424,7 +2424,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Portal Generator" id="05f0-1b29-71ec-b463" hidden="true" typeId="ac97-8b63-0528-d2b2" typeName="Generator"/>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Magma Cast Generator" id="5d1a-3cd0-08ef-0de2" hidden="true" import="true" type="upgrade">
+        <selectionEntry name="Magma Cast Generator" id="5d1a-3cd0-08ef-0de2" defaultAmount="0" hidden="true" import="true" type="upgrade">
           <constraints>
             <constraint id="b839-7d9d-6209-14c0" automatic="false" field="selections" includeChildSelections="true" scope="parent" shared="true" type="min" value="0"/>
             <constraint id="4711-0797-2f05-dff9" automatic="false" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>

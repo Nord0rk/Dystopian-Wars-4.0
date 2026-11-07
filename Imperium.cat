@@ -5493,7 +5493,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Guided Heavy Gun Battery" id="032b-bf0d-7573-0932" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Guided Heavy Gun Battery" id="032b-bf0d-7573-0932" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Guided Heavy Voltgun Battery" id="e437-5326-7228-aaaf" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -5544,7 +5544,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Guided Heavy Gun Battery" id="10a4-93c9-697d-4a83" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Guided Heavy Gun Battery" id="10a4-93c9-697d-4a83" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Guided Heavy Voltgun Battery" id="a011-3176-1efe-027b" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -6271,9 +6271,9 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </modifier>
                   </modifiers>
                   <selectionEntries>
-                    <selectionEntry name="Guided Heavy Gun Battery" id="838d-de45-badc-95b8" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Guided Heavy Gun Battery" id="838d-de45-badc-95b8" defaultAmount="1" hidden="false" import="true" type="upgrade">
                       <profiles>
-                        <profile name="Guided Heavy Voltgun Battery" id="6fe5-ef22-840b-4ed1" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
+                        <profile name="Guided Heavy Gun Battery" id="6fe5-ef22-840b-4ed1" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                             <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -6394,9 +6394,9 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </modifier>
                   </modifiers>
                   <selectionEntries>
-                    <selectionEntry name="Guided Heavy Gun Battery" id="a32f-95be-6be0-8e98" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Guided Heavy Gun Battery" id="a32f-95be-6be0-8e98" defaultAmount="1" hidden="false" import="true" type="upgrade">
                       <profiles>
-                        <profile name="Guided Heavy Voltgun Battery" id="20e6-3148-bc7d-a37c" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
+                        <profile name="Guided Heavy Gun Battery" id="20e6-3148-bc7d-a37c" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                             <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -7878,7 +7878,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="bc22-eb3e-ad03-a838" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="bc22-eb3e-ad03-a838" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="46b0-7a95-f917-5509" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -7891,7 +7891,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Voltgun Battery" id="0003-3ca3-ce45-7060" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Voltgun Battery" id="0003-3ca3-ce45-7060" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Voltgun Battery" id="1576-a6c7-9303-bafe" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -7929,7 +7929,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="e5e5-8be5-0e7c-0b5c" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="e5e5-8be5-0e7c-0b5c" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="5fb2-8d48-ef9f-1c45" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -7980,7 +7980,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="f0be-7561-c51e-b288" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="f0be-7561-c51e-b288" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="0f1c-e321-3ecf-d4bb" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -8031,7 +8031,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="0510-2fb4-0cea-e9ac" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="0510-2fb4-0cea-e9ac" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="7101-32c7-79e9-b3a0" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -8811,7 +8811,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="68c1-c80f-2b43-c7b9" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="68c1-c80f-2b43-c7b9" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="1840-e72f-d54a-c8f8" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -10123,7 +10123,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="4ddd-c74a-56e1-a638" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="4ddd-c74a-56e1-a638" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Heavy Gun Battery" id="6f8d-e787-6495-e9b6" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -10177,7 +10177,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="dd05-1085-7c28-a282" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="dd05-1085-7c28-a282" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Heavy Gun Battery" id="0e95-c290-41a9-e17d" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -13085,7 +13085,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
               <comment>Heavy Hardpoint</comment>
               <constraints>
                 <constraint id="3c17-27ff-ed5f-3aad" automatic="true" field="selections" scope="parent" shared="true" type="max" value="3"/>
-                <constraint id="0b60-a15d-ee54-5fb2" automatic="true" field="selections" scope="parent" shared="true" type="min" value="3"/>
+                <constraint id="0b60-a15d-ee54-5fb2" automatic="false" field="selections" scope="parent" shared="true" type="min" value="3"/>
               </constraints>
               <entryLinks>
                 <entryLink name="Generators" id="c902-a9ab-fd71-d191" hidden="false" import="true" sortIndex="3" targetId="7a4d-983a-a763-720b" type="selectionEntryGroup"/>
@@ -13104,7 +13104,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="e24a-b307-84c8-01dd" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="e24a-b307-84c8-01dd" defaultAmount="3" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="be9f-f193-7ed2-8d89" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -13749,7 +13749,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="4550-d1cc-3396-3bc6" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="4550-d1cc-3396-3bc6" defaultAmount="2" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="6061-5c5a-1666-5517" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -14427,7 +14427,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="e47a-a485-6e59-0e93" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="e47a-a485-6e59-0e93" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="ae79-5ef4-d6f7-52ab" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -15664,7 +15664,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <entryLink name="Generators" id="50b9-9a2c-3af2-3fc1" hidden="false" import="true" targetId="7a4d-983a-a763-720b" type="selectionEntryGroup"/>
               </entryLinks>
               <selectionEntries>
-                <selectionEntry name="Heavy Gun Battery" id="d8e1-e72d-405f-06c6" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="d8e1-e72d-405f-06c6" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="641e-c79f-e16e-2089" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -17002,7 +17002,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Light Gun Battery" id="e959-6968-84cd-4483" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Light Gun Battery" id="e959-6968-84cd-4483" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Light Gun Battery" id="338a-b71d-edb1-67a0" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -18436,7 +18436,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Light Gun Battery" id="b47e-98b0-4e83-981c" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Light Gun Battery" id="b47e-98b0-4e83-981c" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Light Gun Battery" id="c07b-cb34-fa02-9729" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -18492,7 +18492,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     <modifier affects="self.entries.unit.profiles.Systems" field="a14c-99af-eb72-2d3d" join=", " scope="unit" type="append" value="Hoved Targeting Array"/>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry name="Heavy Erderschütterer Rockets" id="2f71-49d4-6424-870e" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Erderschütterer Rockets" id="2f71-49d4-6424-870e" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <profiles>
                     <profile name="Heavy Erderschütterer Rockets" id="6dc0-dfd5-9d85-0c3a" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -19108,7 +19108,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <constraint id="0f16-91ad-41c5-8bc9" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="Heavy Gun Battery" id="fa7a-0f4f-4b25-eda6" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="fa7a-0f4f-4b25-eda6" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="4b47-2fb1-4869-6f02" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -19155,7 +19155,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <constraint id="928a-e117-bc90-d05d" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="Heavy Gun Battery" id="c6c9-3f59-1158-d04e" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="c6c9-3f59-1158-d04e" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="2835-6578-5c26-b687" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -19777,7 +19777,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Light Gun Battery" id="5cf9-32ba-f313-590e" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Light Gun Battery" id="5cf9-32ba-f313-590e" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Light Gun Battery" id="c41d-d967-3669-11e7" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -21103,7 +21103,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <constraint id="928c-14a7-0c88-d7db" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="Heavy Gun Battery" id="8cb5-a4e9-12fc-9d47" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="8cb5-a4e9-12fc-9d47" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="a4f6-78df-9f9c-f72e" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -21150,7 +21150,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <constraint id="99f4-d45a-73af-2979" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="Heavy Gun Battery" id="2a93-9ffa-2f52-4f3b" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="2a93-9ffa-2f52-4f3b" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="8cf0-0742-13d5-9c8e" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -27200,7 +27200,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="d9a9-102d-f0ad-8188" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="d9a9-102d-f0ad-8188" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="4a27-a9b7-cc6c-325d" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -28063,7 +28063,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
-                <selectionEntry name="Auto-Targeting Heavy Voltaic Gun Battery" id="d596-26a9-5a75-6ffd" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Auto-Targeting Heavy Voltgun Battery" id="d596-26a9-5a75-6ffd" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Auto-Targeting Heavy Voltgun Battery" id="9b1e-be8f-df81-163d" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -28091,7 +28091,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="0af6-ff7a-fd52-7e0e" hidden="false" import="true" sortIndex="3" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="0af6-ff7a-fd52-7e0e" defaultAmount="1" hidden="false" import="true" sortIndex="3" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Heavy Gun Battery" id="6879-aaf0-1a26-c3d3" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -28121,7 +28121,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
-                <selectionEntry name="Auto-Targeting Heavy Voltaic Gun Battery" id="c114-6c6b-21e7-f090" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Auto-Targeting Heavy Voltgun Battery" id="c114-6c6b-21e7-f090" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Auto-Targeting Heavy Voltgun Battery" id="cdd9-3177-8f40-06bd" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -28149,7 +28149,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="b513-153b-6a8f-2065" hidden="false" import="true" sortIndex="3" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="b513-153b-6a8f-2065" defaultAmount="1" hidden="false" import="true" sortIndex="3" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Heavy Gun Battery" id="c28c-ecc7-305e-331c" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -28761,7 +28761,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Gun Battery" id="54d7-bd65-32fd-c43a" hidden="false" import="true" sortIndex="1" type="upgrade">
+                <selectionEntry name="Heavy Gun Battery" id="54d7-bd65-32fd-c43a" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <profiles>
                     <profile name="Heavy Gun Battery" id="1ab6-b3aa-8416-14be" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                       <characteristics>
@@ -29442,7 +29442,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Light Gun Battery" id="14de-f92c-9554-4f54" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Light Gun Battery" id="14de-f92c-9554-4f54" defaultAmount="1" hidden="false" import="true" type="upgrade">
                   <comment>FPS</comment>
                   <profiles>
                     <profile name="Light Gun Battery" id="07c0-ca64-cf52-5995" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -34251,7 +34251,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry name="Heavy Gun Battery" id="f0c0-dac1-1c9c-478f" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Heavy Gun Battery" id="f0c0-dac1-1c9c-478f" defaultAmount="1" hidden="false" import="true" type="upgrade">
               <profiles>
                 <profile name="Heavy Gun Battery" id="0e35-435f-5799-3043" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
                   <characteristics>
