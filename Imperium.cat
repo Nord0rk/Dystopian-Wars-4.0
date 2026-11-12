@@ -108,7 +108,7 @@
                     <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                     <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                     <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1), Voltaic (1)</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1), Voltaic (1)</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="REF:Valkyrie Hunt Rotor" id="4459-2e17-94cf-f514" hidden="false" typeId="9251-e433-d856-630b" typeName="Model">
@@ -6507,7 +6507,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                             <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                             <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Guided (1), Indiscriminate, Protective Fire (4), Sky-Strike (2)</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Guided (1), Indiscriminate, Protective Fire (4), Sky Strike (2)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6702,7 +6702,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Ice Maiden" id="788d-b9d7-97b1-c686" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers, Flak Barrage (12), Flight Command (2)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers, Flak Barrage (12), Flight Command (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11131,7 +11131,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Protective Fire (4), Sky-Strike (4)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Protective Fire (4), Sky Strike (4)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11177,7 +11177,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (2), Voltaic (4)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (2), Voltaic (4)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12459,7 +12459,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (2), Voltaic (4)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (2), Voltaic (4)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12563,7 +12563,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Valhalla" id="6432-1ee1-7dec-600d" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Decksweepers, Fury Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Deck Sweepers, Fury Generator</characteristic>
           </characteristics>
         </profile>
         <profile name="Valhalla" id="26a3-d242-ae39-0cae" hidden="false" typeId="7d8a-def1-ca09-d15c" typeName="Properties">
@@ -15076,7 +15076,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (2), Voltaic (3)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (2), Voltaic (3)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -17039,7 +17039,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -17851,7 +17851,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -19290,7 +19290,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Gefjon Merchantman" id="fabc-af7e-23fd-db47" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Logisitical Support</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Logistical Support</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20466,7 +20466,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -22489,7 +22489,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (2), Voltaic (2)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (2), Voltaic (2)</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Sturmklaue" id="fbed-7885-6ecc-1913" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -23115,7 +23115,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (2), Voltaic (4)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (2), Voltaic (4)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -23738,7 +23738,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1), Voltaic (1)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1), Voltaic (1)</characteristic>
               </characteristics>
             </profile>
             <profile name="Dual Rudiger Autokanone" id="3726-a3fa-4dd0-f3a6" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -23747,7 +23747,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (2), Voltaic (2)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (2), Voltaic (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -24325,7 +24325,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Protective Fire (4), Sky-Strike (2</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Protective Fire (4), Sky Strike (2)</characteristic>
               </characteristics>
             </profile>
             <profile name="Speerschleuders" id="9dd3-4f4e-0a8a-9995" hidden="false" typeId="9882-7112-4aa5-ffc1" typeName="Weapons">
@@ -24396,7 +24396,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -25082,7 +25082,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -25160,7 +25160,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -29479,7 +29479,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -30130,7 +30130,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (2), Voltaic (3)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (2), Voltaic (3)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -32829,7 +32829,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1), Voltaic (1)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1), Voltaic (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -33534,7 +33534,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -36261,7 +36261,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -36717,7 +36717,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
                     <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                     <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                     <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky-Strike (1), Voltaic (1)</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate, Sky Strike (1), Voltaic (1)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
