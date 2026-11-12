@@ -3404,5 +3404,22 @@ Additionally, Valkyrie Hunt Rotor units within 7” of a model with this propert
     <rule name="Bomber" id="f597-1243-6222-3d71" hidden="false">
       <description>During the Resolve Critical Damage step of an Attack Run mission that contained at least one SRS token with this property, each Attack Run Target with at least 1 die allocated to it suffers 1 Damage.</description>
     </rule>
+    <rule name="Air Support Mission" id="5f39-3ad0-ffbb-1ff6" hidden="false">
+      <comment>SRS</comment>
+      <description>Allocate the SRS Stack to a friendly unit within 30&quot; of the model from which it is being launched. It is now Supporting that unit.
+
+
+This Mission is not resolved at the start of an Activation. Instead, the Stack can provide Air Support if the friendly unit is targeted by an Attack action or Boarding action, and can make an Interception Attempt if the friendly unit is targeted by an Attack Run Mission.
+
+
+&lt;b&gt; Air Support: &lt;/b&gt;
+
+
+An SRS Stack Supporting a friendly unit can provide Air Support if that unit becomes the Target of an Attack action or Boarding action.
+
+
+The Admiral discards any number of SRS tokens from the Stack. For each token that is discarded, they add a number of Bonus Dice equal to the token’s Support rating to their Resistance Pool. </description>
+      <alias>Air Support </alias>
+    </rule>
   </sharedRules>
 </catalogue>
