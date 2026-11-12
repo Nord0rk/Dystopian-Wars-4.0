@@ -3466,7 +3466,7 @@ Colossus models are still prevented from Participating in other Actions, as norm
         </profile>
         <profile name="Toten" id="b9d7-66cc-cad9-51ec" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers</characteristic>
           </characteristics>
         </profile>
         <profile name="Toten" id="3926-f51f-d9e7-2cab" hidden="false" typeId="9251-e433-d856-630b" typeName="Model">
@@ -3823,7 +3823,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Brandenburg" id="42db-5378-eb38-764b" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers, Storm Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers, Storm Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4917,7 +4917,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
       <profiles>
         <profile name="Elector" id="4ef5-f721-8f7e-4a10" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers, Storm Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers, Storm Generator</characteristic>
           </characteristics>
         </profile>
         <profile name="Elector" id="3cdb-00b4-15cc-b13d" hidden="false" typeId="7d8a-def1-ca09-d15c" typeName="Properties">
@@ -5651,7 +5651,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
       <profiles>
         <profile name="Falkenstein" id="8aa5-9846-85f1-749b" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers</characteristic>
           </characteristics>
           <modifiers>
             <modifier field="name" join=" " type="append" value="Sekundär">
@@ -6702,7 +6702,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Ice Maiden" id="788d-b9d7-97b1-c686" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers, Flak Barrage (12), Flight Command (2)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers, Flak Barrage (12), Flight Command (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7337,7 +7337,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
       <profiles>
         <profile name="Kaiser Heavy" id="84aa-8dbb-25e8-bc1a" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers, Storm Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers, Storm Generator</characteristic>
           </characteristics>
         </profile>
         <profile name="Kaiser Heavy" id="eb94-d152-e551-9150" hidden="false" typeId="7d8a-def1-ca09-d15c" typeName="Properties">
@@ -8182,7 +8182,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Konig Generator Ship" id="a467-a533-70c2-b568" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers, Generator Ship</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers, Generator Ship</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12563,7 +12563,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Valhalla" id="6432-1ee1-7dec-600d" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Deck Sweepers, Fury Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Decksweepers, Fury Generator</characteristic>
           </characteristics>
         </profile>
         <profile name="Valhalla" id="26a3-d242-ae39-0cae" hidden="false" typeId="7d8a-def1-ca09-d15c" typeName="Properties">
@@ -24532,7 +24532,7 @@ A Generator Hardpoint cannot be swapped in or out in this way.</description>
         </profile>
         <profile name="Sigimer" id="3da7-4df7-5c3b-dcc0" hidden="false" typeId="72b1-e351-6742-457c" typeName="Systems">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Deck Sweepers</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Decksweepers</characteristic>
           </characteristics>
         </profile>
         <profile name="Sigimer" id="5442-75e1-d1c0-366b" hidden="false" typeId="9251-e433-d856-630b" typeName="Model">
