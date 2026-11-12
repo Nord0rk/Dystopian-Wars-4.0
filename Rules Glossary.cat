@@ -801,7 +801,7 @@ If they do so, then for the duration of the current Movement Step, the model’s
 
 *Note, if a unit has any means of Pivoting or Turning without Coming About (such as the Vitruvian Form, Mobile, or Interphase Generator properties/systems), the controlling Admiral can not choose to Boost its Propulsion in an activation in which they use any of those properties/systems to turn.*</description>
     </rule>
-    <rule name="Deck Sweepers" id="83d0-b12c-9e07-fc96" hidden="false">
+    <rule name="Decksweepers" id="83d0-b12c-9e07-fc96" hidden="false">
       <description>When this model is chosen as the Target of a Boarding action, its Admiral can choose to make a Crew Check for it.
 
 
